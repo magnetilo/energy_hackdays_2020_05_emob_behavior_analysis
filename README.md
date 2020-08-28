@@ -18,6 +18,6 @@ First we tried looping everything into csv, which did not perform as fast as we 
 We then tried Apache Feather as a data transfer format but the data storage speed wasn't the problem.
 The next try was a sqlite database which works fine and was an okay solution for the hackathon.
 If the project would go live, we would recommend a database server preferably in the cloud, to get the inital data loading done quick.
-The dataload still takes over 3 hours.
+The dataload still takes over 3 hours and is not responsive.
 
    
