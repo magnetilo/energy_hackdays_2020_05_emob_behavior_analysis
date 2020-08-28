@@ -25,68 +25,46 @@ flat_df_EVSEDataRecord = pd.DataFrame(flat_df_EVSEDataRecord.values, columns=fla
 
 flat_df = pd.concat([flat_df_OperatorID, flat_df_OperatorName, flat_df_EVSEDataRecord], axis=1)
 
-flat_df.to_csv('public_static_infos.csv')
+#flat_df.to_csv('public_static_infos.csv')
 
 #flat_df = flat_table.normalize(nested_df, expand_lists=True, expand_dicts=True)
 #print(flat_df)
 
-
+#%%
 with open('dbaccess.config') as file:
     connection_string = file.read()
 
 conn = psycopg2.connect(connection_string)
 with conn.cursor() as cur:
-    # Write underground_area_parcel to DB
-    if parcels_df.shape[0] > 0:
-        value_string = ','.join(
-            ["({},{})".format(
-                parcelid_sep,
-                underground_area_parcel)
-                for (parcelid_sep, underground_area_parcel)
-                in zip(parcels_df['parcelid_sep'],
-                       parcels_df['underground_area'])
-            ])
-        # print(value_string)
+    flat_df2 = flat_df.copy()
+    flat_df2["ChargingFacilities"] = flat_df2["ChargingFacilities"].apply(lambda x: json.dumps(x))
+    #flat_df2["AdditionalInfo"] = flat_df2["AdditionalInfo"].apply(lambda x: json.dumps(x))
+    flat_df2['OperatorName'] = flat_df2['OperatorName'].apply(lambda x: x.replace("'", "''") if x is not None else x)
+    flat_df2['Address.City'] = flat_df2['Address.City'].apply(lambda x: x.replace("'", "''") if x is not None else x)
+    flat_df2['Address.Street'] = flat_df2['Address.Street'].apply(lambda x: x.replace("'", "''") if x is not None else x)
+    flat_df2['ChargingStationName'] = flat_df2['ChargingStationName'].apply(lambda x: x.replace("'", "''") if x is not None else x)
 
-        cur.execute("""
-                            update sep_features.parcel_features pf
-                            set underground_area_parcel = pu.underground_area_parcel,
-                                lastupdated_underground_area = now()
-                            from (values {values}) as pu (
-                                parcelid_sep, underground_area_parcel)
-                            where pf.parcelid_sep = pu.parcelid_sep
-                        """.format(values=value_string)
-                    )
+    value_string = ','.join(flat_df2.drop(['AdditionalInfo', 'EnChargingStationName',
+                                           'ChargingModes', 'MaxCapacity'], axis=1).apply(lambda x: "(\
+'{}', '{}', {}, '{}',\
+'{}', '{}', '{}', '{}',\
+'{}', '{}', array{},\
+'{}', '{}', {}, '{}',\
+'{}', array{},\
+'{}', '{}', array{},\
+array{}, '{}', '{}', '{}',\
+'{}', '{}', '{}', '{}',\
+'{}', st_pointfromtext('POINT({})', 4326), '{}'\
+)".format(*x), axis=1).values.tolist()).replace('arrayNone', 'Null')
 
-    # Write underground_geoms_per_parcel to DB
-    if underground_geoms_per_parcel_df.shape[0] > 0:
-        value_string = ','.join(
-            [
-                "(default, {}, st_transform(st_simplify(ST_SetSRID(ST_GeomFromGeoJSON('{}'), 21781), 0.5), 2056), now())".format(
-                    parcelid_sep,
-                    json.dumps(underground_geom))
-                for (parcelid_sep, underground_geom)
-                in zip(underground_geoms_per_parcel_df['parcelid_sep'],
-                       underground_geoms_per_parcel_df['underground_geom'])
-            ])
-        # print(value_string)
-
-        cur.execute(
-            """
-                -- Delete already existing entries for analysed parcels
-                delete from cadastre_detection.underground_constructions_per_parcel 
-                where parcelid_sep in ({parcelids});
-
-                -- Insert underground geometries
-                insert into cadastre_detection.underground_constructions_per_parcel (
-                    id, parcelid_sep, geom_simple_2056, lastupdated
-                )
-                values {values};
-            """.format(
-                parcelids=','.join(underground_geoms_per_parcel_df['parcelid_sep'].astype('str')),
-                values=value_string
-            )
+    cur.execute(
+        """
+            insert into ladestationen_elektromobilitaet.static_data
+            values {values};
+        """.format(
+            values=value_string
         )
+    )
 
 conn.commit()
 conn.close()
