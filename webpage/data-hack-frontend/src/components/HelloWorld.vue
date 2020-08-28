@@ -9,7 +9,19 @@
 
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
-          <v-card-title>Dummy Plot</v-card-title>
+          <v-card-title>Snapshot</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapoints"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+            <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
+          <v-card-title>Top Shots Most Occupied</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapoints"
@@ -21,7 +33,31 @@
       </v-col>
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
-          <v-card-title>Dummy Map</v-card-title>
+          <v-card-title>Regional Occupation (MAP)</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapoints1"
+              :layout="layoutMap"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+            <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
+          <v-card-title>Occupation Over Time</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapoints"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
+          <v-card-title>Duration Time of Charging (MAP)</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapoints1"
