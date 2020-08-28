@@ -24,10 +24,7 @@ for file in directory:
         df_2 = flat_table.normalize(df)
         del df
         df_2['timestamp'] = file[14:33]
-        #df_total = df_total.append(df_2, ignore_index=True)
         df_2.to_sql('test', conn, if_exists='append')
     del df_2
     print(file + " is done")
-#df_total.drop('index', axis=1)
-# df_total.reset_index()
-#df_total.to_sql('test', conn, if_exists='append')
+

@@ -2,3 +2,4 @@
 *.config
 DIEMO/*
 data/*
+data_engineering_diemo/SQLite_Python.db
