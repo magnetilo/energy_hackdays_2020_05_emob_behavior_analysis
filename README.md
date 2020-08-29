@@ -1,5 +1,5 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
-Erica Lastufka, physics @ www.fhnw.ch | Florence Meier, Full Stack Developmant (focus on frontend) | Benedikt Ramsauer, Data Scientist @ www.swiss-sdi.ch | Xavier Bays, Data Scientist @ www.swiss-sdi.ch | Tim Breitenbach, Analytics & Data Architect @ www.axpo.ch | Thilo Weber, Data Scientist @ www.geoimpact.ch | David Suter, Sustainable Energy Specialist @ www.geoimpact.ch | Pradip Ravichandran, Computer Science @ www.fhnw.ch 
+Erica Lastufka, physics @ www.fhnw.ch | Florence Meier, Full Stack Developmant (focus on frontend) | Benedikt Ramsauer, Data Scientist @ www.swiss-sdi.ch | Xavier Bays, Data Scientist @ www.swiss-sdi.ch | Tim Breitenbach, Analytics & Data Architect @ www.axpo.ch | Pradip Ravichandran, Computer Science @ www.fhnw.ch | Thilo Weber, Data Scientist @ www.geoimpact.ch | David Suter, Sustainable Energy Specialist @ www.geoimpact.ch 
 
 ## findings
 
@@ -7,10 +7,8 @@ Erica Lastufka, physics @ www.fhnw.ch | Florence Meier, Full Stack Developmant (
 
 - Typology of municipalities is an important feature for occupied ratio
 - highest occupied ratio in big centers and peri-urban rural communes
-- low population density: many stations and comparibaly high occupation
-- with higher population density we have fewer amount of stations
-- minimum occupied ratio on 50 pers/ha population density
-- high occupation on high population density
+- no correlation between population density and occupied ratio
+- different patterns on weekdays and weekends
 
 ### private ev charging station
 Different charging patterns of private customers:
@@ -26,9 +24,9 @@ This provide good hints for a further automated customer segmentation.
 ## possible next steps
 
 ### public ev charging station
-- occupation forecast for every charging station (hourly based day profile integrated on the website ich-tanke-strom.ch ) --> for the customers
-- clustering with more location-based data (socio-economic, roads, traffic etc.) --> understanding of different charging patterns
-- compare clusters of charging behavior with pv potential and production profiles --> own consumption of charging stations
+- occupation forecast for every charging station (hourly based day profile as a new feature for the website www.ich-tanke-strom.ch ) --> for the customers
+- clustering with more location-based data (socio-economic, roads, traffic etc.), understanding of different charging patterns --> for the provider
+- compare clusters of charging behavior with pv potential and production profiles, possibility of own consumption of charging stations --> for the grid
 
 ### private ev charging station
 - automated customer segmentation based on linked information (building data, socio-economoic data, location) --> for the provider
