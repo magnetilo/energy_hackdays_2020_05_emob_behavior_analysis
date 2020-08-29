@@ -43,6 +43,7 @@ with conn.cursor() as cur:
     flat_df2['Address.City'] = flat_df2['Address.City'].apply(lambda x: x.replace("'", "''") if x is not None else x)
     flat_df2['Address.Street'] = flat_df2['Address.Street'].apply(lambda x: x.replace("'", "''") if x is not None else x)
     flat_df2['ChargingStationName'] = flat_df2['ChargingStationName'].apply(lambda x: x.replace("'", "''") if x is not None else x)
+    flat_df2['GeoCoordinates.Google'] = flat_df2['GeoCoordinates.Google'].apply(lambda x: ' '.join(x.split()[::-1]))
 
     value_string = ','.join(flat_df2.drop(['AdditionalInfo', 'EnChargingStationName',
                                            'ChargingModes', 'MaxCapacity'], axis=1).apply(lambda x: "(\
@@ -54,7 +55,7 @@ with conn.cursor() as cur:
 '{}', '{}', array{},\
 array{}, '{}', '{}', '{}',\
 '{}', '{}', '{}', '{}',\
-'{}', st_pointfromtext('POINT({})', 4326), '{}'\
+'{}', st_transform(st_pointfromtext('POINT({})', 4326), 2056), '{}'\
 )".format(*x), axis=1).values.tolist()).replace('arrayNone', 'Null')
 
     cur.execute(

@@ -109,7 +109,7 @@ export default {
       const path = 'http://localhost:5000/';
       axios.get(path)
         .then((res) => {
-          this.datapoints = [res.data];
+          this.datapoints = res.data;
         })
         .catch((error) => {
           // eslint-disable-next-line
