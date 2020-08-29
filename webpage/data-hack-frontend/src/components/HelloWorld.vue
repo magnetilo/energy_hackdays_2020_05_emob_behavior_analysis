@@ -19,45 +19,37 @@
           </v-card-text>
         </v-card>
       </v-col>
-            <v-col class="mb-5" cols="12">
+    </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Top Shots Most Occupied</v-card-title>
+          <v-card-title>Weekday</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapoints"
+              :data="datapointsBar"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
           </v-card-text>
         </v-card>
       </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Weekend</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBarWE"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
           <v-card-title>Regional Occupation (MAP)</v-card-title>
-          <v-card-text>
-            <Plotly
-              :data="datapoints1"
-              :layout="layoutMap"
-              :display-mode-bar="false"
-            ></Plotly>
-          </v-card-text>
-        </v-card>
-      </v-col>
-            <v-col class="mb-5" cols="12">
-        <v-card elevation="5">
-          <v-card-title>Occupation Over Time</v-card-title>
-          <v-card-text>
-            <Plotly
-              :data="datapoints"
-              :layout="layout"
-              :display-mode-bar="false"
-            ></Plotly>
-          </v-card-text>
-        </v-card>
-      </v-col>
-      <v-col class="mb-5" cols="12">
-        <v-card elevation="5">
-          <v-card-title>Duration Time of Charging (MAP)</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapoints1"
@@ -83,6 +75,8 @@ export default {
   data: function() {
     return {
       datapoints: [],
+      datapointsBar: [],
+      datapointsBarWE: [],
       layout: {},
       datapoints1: [
         {
@@ -116,9 +110,21 @@ export default {
           console.error(error);
         });
     },
+    getHourBarPlots() {
+      const path = 'http://localhost:5000/hourBarPlot';
+      axios.get(path)
+        .then((res) => {
+          this.datapointsBar = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getMessage();
+    this.getHourBarPlots()
   },
 };
 </script>
