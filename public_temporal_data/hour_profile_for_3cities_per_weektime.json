@@ -1,0 +1,1154 @@
+{
+    "0": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "1": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "2": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "3": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "4": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "5": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "6": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "7": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "8": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 0,
+        "num_tot": 69,
+        "occupied_ratio": 0.0
+    },
+    "9": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 0,
+        "num_tot": 65,
+        "occupied_ratio": 0.0
+    },
+    "10": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "11": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "12": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "13": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "14": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "15": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "16": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "17": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "18": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "19": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "20": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "21": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "22": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "23": {
+        "city": "B\u00fclach",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "24": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 0,
+        "num_tot": 368,
+        "occupied_ratio": 0.0
+    },
+    "25": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 0,
+        "num_tot": 369,
+        "occupied_ratio": 0.0
+    },
+    "26": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 0,
+        "num_tot": 372,
+        "occupied_ratio": 0.0
+    },
+    "27": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 0,
+        "num_tot": 368,
+        "occupied_ratio": 0.0
+    },
+    "28": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 0,
+        "num_tot": 369,
+        "occupied_ratio": 0.0
+    },
+    "29": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 5,
+        "num_tot": 370,
+        "occupied_ratio": 0.0135135135
+    },
+    "30": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 56,
+        "num_tot": 361,
+        "occupied_ratio": 0.1551246537
+    },
+    "31": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 117,
+        "num_tot": 371,
+        "occupied_ratio": 0.3153638814
+    },
+    "32": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 96,
+        "num_tot": 396,
+        "occupied_ratio": 0.2424242424
+    },
+    "33": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 88,
+        "num_tot": 395,
+        "occupied_ratio": 0.2227848101
+    },
+    "34": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 66,
+        "num_tot": 369,
+        "occupied_ratio": 0.1788617886
+    },
+    "35": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 50,
+        "num_tot": 355,
+        "occupied_ratio": 0.1408450704
+    },
+    "36": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 29,
+        "num_tot": 359,
+        "occupied_ratio": 0.0807799443
+    },
+    "37": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 34,
+        "num_tot": 367,
+        "occupied_ratio": 0.0926430518
+    },
+    "38": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 24,
+        "num_tot": 372,
+        "occupied_ratio": 0.064516129
+    },
+    "39": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 20,
+        "num_tot": 362,
+        "occupied_ratio": 0.0552486188
+    },
+    "40": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 7,
+        "num_tot": 366,
+        "occupied_ratio": 0.0191256831
+    },
+    "41": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 0,
+        "num_tot": 375,
+        "occupied_ratio": 0.0
+    },
+    "42": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 0,
+        "num_tot": 383,
+        "occupied_ratio": 0.0
+    },
+    "43": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 4,
+        "num_tot": 353,
+        "occupied_ratio": 0.0113314448
+    },
+    "44": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 0,
+        "num_tot": 360,
+        "occupied_ratio": 0.0
+    },
+    "45": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 0,
+        "num_tot": 361,
+        "occupied_ratio": 0.0
+    },
+    "46": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 0,
+        "num_tot": 372,
+        "occupied_ratio": 0.0
+    },
+    "47": {
+        "city": "B\u00fclach",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 0,
+        "num_tot": 367,
+        "occupied_ratio": 0.0
+    },
+    "48": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "49": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "50": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "51": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "52": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "53": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "54": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "55": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "56": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "57": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "58": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "59": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "60": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "61": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "62": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "63": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "64": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "65": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "66": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "67": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "68": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "69": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "70": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "71": {
+        "city": "Schongau",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 0,
+        "num_tot": 72,
+        "occupied_ratio": 0.0
+    },
+    "72": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 0,
+        "num_tot": 368,
+        "occupied_ratio": 0.0
+    },
+    "73": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 0,
+        "num_tot": 371,
+        "occupied_ratio": 0.0
+    },
+    "74": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 0,
+        "num_tot": 372,
+        "occupied_ratio": 0.0
+    },
+    "75": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 0,
+        "num_tot": 368,
+        "occupied_ratio": 0.0
+    },
+    "76": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 0,
+        "num_tot": 369,
+        "occupied_ratio": 0.0
+    },
+    "77": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 0,
+        "num_tot": 370,
+        "occupied_ratio": 0.0
+    },
+    "78": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 29,
+        "num_tot": 360,
+        "occupied_ratio": 0.0805555556
+    },
+    "79": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 99,
+        "num_tot": 371,
+        "occupied_ratio": 0.2668463612
+    },
+    "80": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 108,
+        "num_tot": 396,
+        "occupied_ratio": 0.2727272727
+    },
+    "81": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 90,
+        "num_tot": 398,
+        "occupied_ratio": 0.2261306533
+    },
+    "82": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 61,
+        "num_tot": 378,
+        "occupied_ratio": 0.1613756614
+    },
+    "83": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 24,
+        "num_tot": 359,
+        "occupied_ratio": 0.0668523677
+    },
+    "84": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 14,
+        "num_tot": 397,
+        "occupied_ratio": 0.0352644836
+    },
+    "85": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 12,
+        "num_tot": 404,
+        "occupied_ratio": 0.0297029703
+    },
+    "86": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 15,
+        "num_tot": 404,
+        "occupied_ratio": 0.0371287129
+    },
+    "87": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 26,
+        "num_tot": 404,
+        "occupied_ratio": 0.0643564356
+    },
+    "88": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 46,
+        "num_tot": 406,
+        "occupied_ratio": 0.1133004926
+    },
+    "89": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 27,
+        "num_tot": 397,
+        "occupied_ratio": 0.0680100756
+    },
+    "90": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 13,
+        "num_tot": 394,
+        "occupied_ratio": 0.0329949239
+    },
+    "91": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 12,
+        "num_tot": 365,
+        "occupied_ratio": 0.0328767123
+    },
+    "92": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 12,
+        "num_tot": 360,
+        "occupied_ratio": 0.0333333333
+    },
+    "93": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 8,
+        "num_tot": 361,
+        "occupied_ratio": 0.0221606648
+    },
+    "94": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 0,
+        "num_tot": 372,
+        "occupied_ratio": 0.0
+    },
+    "95": {
+        "city": "Schongau",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 0,
+        "num_tot": 368,
+        "occupied_ratio": 0.0
+    },
+    "96": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "97": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "98": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "99": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "100": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "101": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 33,
+        "num_tot": 822,
+        "occupied_ratio": 0.0401459854
+    },
+    "102": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 36,
+        "num_tot": 828,
+        "occupied_ratio": 0.0434782609
+    },
+    "103": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 36,
+        "num_tot": 861,
+        "occupied_ratio": 0.0418118467
+    },
+    "104": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "105": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 39,
+        "num_tot": 864,
+        "occupied_ratio": 0.0451388889
+    },
+    "106": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "107": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "108": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "109": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 36,
+        "num_tot": 864,
+        "occupied_ratio": 0.0416666667
+    },
+    "110": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 51,
+        "num_tot": 864,
+        "occupied_ratio": 0.0590277778
+    },
+    "111": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 45,
+        "num_tot": 861,
+        "occupied_ratio": 0.0522648084
+    },
+    "112": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 0,
+        "num_tot": 855,
+        "occupied_ratio": 0.0
+    },
+    "113": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 0,
+        "num_tot": 831,
+        "occupied_ratio": 0.0
+    },
+    "114": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 0,
+        "num_tot": 864,
+        "occupied_ratio": 0.0
+    },
+    "115": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 0,
+        "num_tot": 864,
+        "occupied_ratio": 0.0
+    },
+    "116": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 0,
+        "num_tot": 864,
+        "occupied_ratio": 0.0
+    },
+    "117": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 0,
+        "num_tot": 858,
+        "occupied_ratio": 0.0
+    },
+    "118": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 0,
+        "num_tot": 828,
+        "occupied_ratio": 0.0
+    },
+    "119": {
+        "city": "Winterthur",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 0,
+        "num_tot": 828,
+        "occupied_ratio": 0.0
+    },
+    "120": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 144,
+        "num_tot": 4878,
+        "occupied_ratio": 0.0295202952
+    },
+    "121": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 144,
+        "num_tot": 4878,
+        "occupied_ratio": 0.0295202952
+    },
+    "122": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 144,
+        "num_tot": 4860,
+        "occupied_ratio": 0.0296296296
+    },
+    "123": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 144,
+        "num_tot": 4887,
+        "occupied_ratio": 0.02946593
+    },
+    "124": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 144,
+        "num_tot": 4920,
+        "occupied_ratio": 0.0292682927
+    },
+    "125": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 135,
+        "num_tot": 4749,
+        "occupied_ratio": 0.0284270373
+    },
+    "126": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 111,
+        "num_tot": 4896,
+        "occupied_ratio": 0.0226715686
+    },
+    "127": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 57,
+        "num_tot": 4923,
+        "occupied_ratio": 0.0115783059
+    },
+    "128": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 105,
+        "num_tot": 4995,
+        "occupied_ratio": 0.021021021
+    },
+    "129": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 237,
+        "num_tot": 5055,
+        "occupied_ratio": 0.046884273
+    },
+    "130": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 171,
+        "num_tot": 4977,
+        "occupied_ratio": 0.034358047
+    },
+    "131": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 327,
+        "num_tot": 5019,
+        "occupied_ratio": 0.0651524208
+    },
+    "132": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 402,
+        "num_tot": 5130,
+        "occupied_ratio": 0.0783625731
+    },
+    "133": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 435,
+        "num_tot": 5136,
+        "occupied_ratio": 0.0846962617
+    },
+    "134": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 366,
+        "num_tot": 5130,
+        "occupied_ratio": 0.0713450292
+    },
+    "135": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 372,
+        "num_tot": 5088,
+        "occupied_ratio": 0.0731132075
+    },
+    "136": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 243,
+        "num_tot": 5067,
+        "occupied_ratio": 0.0479573712
+    },
+    "137": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 240,
+        "num_tot": 5031,
+        "occupied_ratio": 0.0477042338
+    },
+    "138": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 243,
+        "num_tot": 5016,
+        "occupied_ratio": 0.0484449761
+    },
+    "139": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 216,
+        "num_tot": 4995,
+        "occupied_ratio": 0.0432432432
+    },
+    "140": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 216,
+        "num_tot": 4992,
+        "occupied_ratio": 0.0432692308
+    },
+    "141": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 216,
+        "num_tot": 4968,
+        "occupied_ratio": 0.0434782609
+    },
+    "142": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 186,
+        "num_tot": 4959,
+        "occupied_ratio": 0.037507562
+    },
+    "143": {
+        "city": "Winterthur",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 180,
+        "num_tot": 4908,
+        "occupied_ratio": 0.0366748166
+    }
+}
