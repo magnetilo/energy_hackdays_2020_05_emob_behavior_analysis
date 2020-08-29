@@ -225,29 +225,29 @@ def charge_type_v_cid(df,scale=False):
 
     data = [
         {
-        'x':xax,
-        'y': nlo,
+        'x':xax.tolist(),
+        'y': nlo.tolist(),
         'type': 'bar',
         'name':'low'
     },
     {
-        'x':xax,
-        'y': nmid,
+        'x':xax.tolist(),
+        'y': nmid.tolist(),
         'type': 'bar',
         'name':'middle'
     },
     {
-        'x':xax,
-        'y': nhi,
+        'x':xax.tolist(),
+        'y': nhi.tolist(),
         'type': 'bar',
         'name':'high'
     },
     {
-        'x':xax,
-        'y': nex,
+        'x':xax.tolist(),
+        'y': nex.tolist(),
         'type': 'bar',
         'name':'extrem'
-    },]
+    }]
     
     layout = {
         'title':'Hour distribution of the of the charging process for the whole private population',

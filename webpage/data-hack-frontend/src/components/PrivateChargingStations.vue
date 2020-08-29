@@ -159,6 +159,19 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
+          <v-card-text>
+            <Plotly
+              :data="erica"
+              :layout="layoutX"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -189,6 +202,7 @@ export default {
       plotb: [],
       plotc: [],
       plotd: [],
+      layoutX: {},
     };
   },
   methods: {
@@ -353,6 +367,19 @@ export default {
           console.error(error);
         });
     },
+    getErica() {
+      const path = "http://localhost:5000/erica";
+      axios
+        .get(path)
+        .then((res) => {
+          this.erica = res.data.data;
+          this.layoutX = res.data.layout;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getPlot1();
@@ -367,6 +394,7 @@ export default {
     this.getPlotb();
     this.getPlotc();
     this.getPlotd();
+    this.getErica();
   },
 };
 </script>

@@ -49,6 +49,20 @@
     <v-row>
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
+          <v-card-title>PRIVATE Consumption Weekday vs Weekend</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="privWE"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
           <v-card-title>Regional Occupation (MAP)</v-card-title>
           <v-card-text>
             <Plotly
@@ -77,6 +91,7 @@ export default {
       datapoints: [],
       datapointsBar: [],
       datapointsBarWE: [],
+      privWE: [],
       layout: {},
       datapoints1: [],
       layoutMap: {
@@ -136,12 +151,24 @@ export default {
           console.error(error);
         });
     },
+    privWEMeth() {
+      const path = 'http://localhost:5000/privWE';
+      axios.get(path)
+        .then((res) => {
+          this.privWE = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getMessage();
     this.getHourBarPlots()
     this.getHourBarPlotsWE()
     this.latLong();
+    this.privWEMeth();
   },
 };
 </script>

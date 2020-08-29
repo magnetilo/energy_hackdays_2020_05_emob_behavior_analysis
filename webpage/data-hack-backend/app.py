@@ -22,7 +22,7 @@ project_path = os.path.abspath(os.path.join(app_file_path, '..', '..'))
 sys.path.append(os.path.abspath(project_path))
 # Import private data set functions
 from src_private.load_process import load_private, data_preprocess
-from src_private.population_plot import load_curve, overall_load_curve_plt, median_load_energy_plt, charging_amount, charging_amount_plt, total_consumption, total_consumption_plt
+from src_private.population_plot import load_curve, overall_load_curve_plt, median_load_energy_plt, charging_amount, charging_amount_plt, total_consumption, total_consumption_plt, plot_hourly_consumption, charge_type_v_cid
 from src_private.user_plot import plot_consumption_history, plot_charging_history, plot_distribution_charging_begin_day, plot_distribution_charging_begin_hour, plot_charging_time_distribution, plot_distribution_programmed_charging, plot_energy_by_charge_distribution, plot_percentage_maxcharge, plot_monthly_cost
 
 # Load an preprocess the data
@@ -202,6 +202,14 @@ def plotc():
 @app.route('/plotd', methods=['GET'])
 def plotd():
     return jsonify(median_load_energy_plt(load_curve_df))
+
+@app.route('/privWE', methods=['GET'])
+def privWE():
+    return jsonify(plot_hourly_consumption(df_clean))
+
+@app.route('/erica', methods=['GET'])
+def erica():
+    return jsonify(charge_type_v_cid(df_clean))
 
 @app.route('/', methods=['GET'])
 def index():
