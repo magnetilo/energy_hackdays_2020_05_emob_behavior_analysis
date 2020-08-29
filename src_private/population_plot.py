@@ -1,5 +1,8 @@
 """Coputation and plots for the whole population analysis"""
 
+import numpy as np
+import pandas as pd
+
 from src_private.config import COVID_END, COVID_START
 
 # Total comsumption
@@ -14,7 +17,7 @@ def total_consumption_plt(df_clean):
     total_cons = total_consumption(df_clean)
     
     data = [{
-        'x':total_cons.index.values.tolist(),
+        'x':total_cons.index.astype(str).tolist(),
         'y': (total_cons.cumsum()/1000).tolist(),
         'mode': 'lines',
         'name': 'total_consumption',
@@ -174,6 +177,83 @@ def plot_hourly_consumption(df):
         'title':'Hour distribution of the of the charging process for the whole private population',
         'xaxis': {
             'title': 'kWh/charge'
+        },
+        'yaxis': {
+            'title': 'Nb of charging processes'
+        }
+    }
+    
+    return {'data': data, 'layout': layout}
+
+def classify_charge(df):
+    '''classify charge is high, medium, low'''
+    df=df[df.is_charging==True]
+    median_increment_per_log = pd.DataFrame(df.groupby(['chargepoint_connector_log'])['increment'].agg('median'))
+    median_increment_per_log.name = 'median_increment_per_log'
+    df = pd.merge(df, median_increment_per_log, on='chargepoint_connector_log', how='left')
+
+    #from this, logical divisions are: low = [0-1e2], mid=[1e2-5e3],high=[>5e3]
+
+    def classify_car_energy(x):
+        if x < 1000:
+            return 'low'
+        elif x < 2000:
+            return 'mid'
+        elif x < 3000:
+            return 'high'
+        else:
+            return 'extrem'
+
+    df['kWh_type'] = df.increment_y.apply(lambda x: classify_car_energy(x))
+    return df
+
+
+def charge_type_v_cid(df,scale=False):
+    '''plot charge type vs chargepoint_connector id in stacked bar plot'''
+    df = classify_charge(df)
+
+    xax=df.chargepoint_connector.dropna().unique()
+    nlo=np.array([len(df.query("kWh_type == 'low' and chargepoint_connector == @h")) for h in xax])
+    nmid=np.array([len(df.query("kWh_type == 'mid' and chargepoint_connector == @h")) for h in xax])
+    nhi=np.array([len(df.query("kWh_type == 'high' and chargepoint_connector == @h")) for h in xax])
+    nex=np.array([len(df.query("kWh_type == 'extrem' and chargepoint_connector == @h")) for h in xax])
+
+    if scale:
+        fac=nlo+nmid+nhi+nex
+    else:
+        fac=1.
+
+    data = [
+        {
+        'x':xax,
+        'y': nlo,
+        'type': 'bar',
+        'name':'low'
+    },
+    {
+        'x':xax,
+        'y': nmid,
+        'type': 'bar',
+        'name':'middle'
+    },
+    {
+        'x':xax,
+        'y': nhi,
+        'type': 'bar',
+        'name':'high'
+    },
+    {
+        'x':xax,
+        'y': nex,
+        'type': 'bar',
+        'name':'extrem'
+    },]
+    
+    layout = {
+        'title':'Hour distribution of the of the charging process for the whole private population',
+        'barmode': 'stack',
+        'xaxis': {
+            'title': 'Charge point'
         },
         'yaxis': {
             'title': 'Nb of charging processes'
