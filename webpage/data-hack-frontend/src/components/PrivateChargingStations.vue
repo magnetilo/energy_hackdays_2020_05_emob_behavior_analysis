@@ -6,34 +6,21 @@
           E-Mobility Behaviour at Home
         </h1>
       </v-col>
-
-      <v-col class="mb-5" cols="12">
-        <v-card elevation="5">
-          <v-card-title>Dummy Line Plot</v-card-title>
-          <v-card-text>
-            <Plotly
-              :data="datapoints"
-              :layout="layout"
-              :display-mode-bar="true"
-            ></Plotly>
-          </v-card-text>
-        </v-card>
-      </v-col>
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
           <v-menu>
             <template v-slot:activator="{ on, attrs }">
               <v-btn color="primary" dark v-bind="attrs" v-on="on">
-                Dropdown
+                Choose id...
               </v-btn>
             </template>
             <v-list>
               <v-list-item
                 v-for="(item, index) in items"
                 :key="index"
-                @click="getOneBar(index + 1)"
+                @click="getOneBar(item)"
               >
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
+                <v-list-item-title>{{ item }}</v-list-item-title>
               </v-list-item>
             </v-list>
           </v-menu>
@@ -66,21 +53,16 @@ export default {
       layout: {},
       datapointsBar: [],
       options: {},
-      items: [
-        { title: "id 1" },
-        { title: "id 2" },
-        { title: "id 3" },
-        { title: "id 4" },
-      ],
+      items: [],
     };
   },
   methods: {
-    getLine() {
+    getItems() {
       const path = "http://localhost:5000/private";
       axios
         .get(path)
         .then((res) => {
-          this.datapoints = [res.data];
+          this.items = res.data;
         })
         .catch((error) => {
           // eslint-disable-next-line
@@ -97,7 +79,7 @@ export default {
       axios
         .post(path, requestOptions)
         .then((res) => {
-          this.datapointsBar = [res.data];
+          this.datapointsBar = res.data;
         })
         .catch((error) => {
           // eslint-disable-next-line
@@ -106,7 +88,7 @@ export default {
     },
   },
   created() {
-    this.getLine();
+    this.getItems();
   },
 };
 </script>
