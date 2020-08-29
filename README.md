@@ -1,10 +1,9 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 
-## summary
-
-### findings
+## findings
 ...
-### faced challenges
+## faced challenges
+- parsing and structuring provided raw data
 ...
 
 
