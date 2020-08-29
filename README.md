@@ -3,17 +3,17 @@ Erica Lastufka, physics @ www.fhnw.ch | Florence Meier, Full Stack Developmant (
 
 ## Dashboard Sreenshots
 
-![sreenshot1](imgs/Screenshot from 2020-08-29 15-06-20.png)
+![sreenshot1](imgs/Screenshot1.png)
 
-![sreenshot2](imgs/Screenshot from 2020-08-29 15-06-47.png)
+![sreenshot2](imgs/Screenshot2.png)
 
-![sreenshot3](imgs/Screenshot from 2020-08-29 15-07-14.png)
+![sreenshot3](imgs/Screenshot3.png)
 
-![sreenshot4](imgs/Screenshot from 2020-08-29 15-07-44.png)
+![sreenshot4](imgs/Screenshot4.png)
 
-![sreenshot5](imgs/Screenshot from 2020-08-29 15-08-04.png)
+![sreenshot5](imgs/Screenshot5.png)
 
-![sreenshot6](imgs/Screenshot from 2020-08-29 15-08-21.png)
+![sreenshot6](imgs/Screenshot6.png)
 
 
 ## findings
