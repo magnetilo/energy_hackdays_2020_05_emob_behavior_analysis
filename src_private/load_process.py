@@ -33,6 +33,7 @@ def data_preprocess(df):
     df['weekday'] = df['timestamp'].dt.weekday
     df['hour'] = df['timestamp'].dt.hour
     df['month'] = df['timestamp'].dt.month
+    df['year'] = df['timestamp'].dt.year
     df['during_corona'] = (COVID_START <= df['timestamp']
                            ) & (df['timestamp'] <= COVID_END)
 
