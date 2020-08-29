@@ -46,7 +46,7 @@ def plot_charging_history(my_customer, df):
     sub_df_charging = sub_df[sub_df['is_charging'] == 1].copy()
 
     data = [{
-        'x':sub_df_charging['timestamp'].values.tolist(),
+        'x':sub_df_charging['timestamp'].astype(str).tolist(),
         'y': sub_df_charging['metervalue'].tolist(),
         'mode': 'markers',
         'name': 'charging_consumption',

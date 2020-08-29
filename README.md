@@ -40,6 +40,11 @@ This provide good hints for a further automated customer segmentation.
 ![Overview](/data_engineering_diemo/data_eng_architecture.png)
 data_engineering_diemo/data_eng_architecture.png
 
+### Data Sources
+- [EKZ-Repo](https://github.com/aselviar/e-mob_analysis)
+- [Municipality Typologies](http://data.geo.admin.ch/ch.are.gemeindetypen/data.zip)
+- [Population Hectar](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/bevoelkerung-haushalte-ab-2010.html)
+
 ### Data Structure of diemo jsons
 
 - EVSEStatuses
@@ -118,3 +123,12 @@ Example of behaviour differences between two private customers: Distribution of 
 ![percentage_of_max_charge_1](imgs/percentage_of_max_charge_1.png)
 
 ![percentage_of_max_charge_2](imgs/percentage_of_max_charge_2.png)
+
+Load curve for private customers:
+
+![ecars_load_curve](imgs/ecars_load_curve.png)
+
+Overall energy consumption by private e-cars. This also show the adoption curve. The red zone corresponds to COVID time.
+
+![total_consumption](imgs/total_consumption.png)
+

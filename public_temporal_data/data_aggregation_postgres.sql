@@ -116,7 +116,7 @@ select evseid, operatorname, a.geom, st_y(a.geom) as lat, st_x(a.geom) as lng,
        occupied_ratio
 from ladestationen_elektromobilitaet.static_data a 
 join geostat.gde_typologien b on st_contains(b.geom, a.geom) 
-join geostat.statpop_hect c on st_contains(c.geom, a.geom)
+left join geostat.statpop_hect c on st_contains(c.geom, a.geom)
 join (
     select evseid, 
            --1.0*sum(case when evsestatus='Occupied' then num_timestamps else 0 end) / sum(num_timestamps) as occupied_ratio
@@ -125,7 +125,7 @@ join (
            1.0*sum(case when evsestatus='Occupied' then num_timestamps else 0 end) / sum(case when evsestatus in ('Occupied', 'Available') then num_timestamps else 0 end) as occupied_ratio
     from ladestationen_elektromobilitaet.temporal_data_count_evseid 
     group by evseid
-    having sum(case when evsestatus in ('Occupied', 'Available') then 1 else 0 end)>0
+    having sum(case when evsestatus in ('Occupied', 'Available') then num_timestamps else 0 end)>0
 ) z using(evseid)
 where cardinality(plugs) = 1;
 
@@ -214,7 +214,28 @@ order by region, weektime, hour;
 
 
 
--- hour profile for
+-- hour profile for three cities:
+select city, weektime, hour,
+       sum(case when evsestatus='Occupied' then num_timestamps else 0 end) as num_occupied,
+       sum(case when evsestatus in ('Occupied', 'Available') then num_timestamps else 0 end) as num_tot,
+       1.0*sum(case when evsestatus='Occupied' then num_timestamps else 0 end) / sum(case when evsestatus in ('Occupied', 'Available') then num_timestamps else 0 end) as occupied_ratio
+from (
+    select evseid,
+           evsestatus,
+           case when evseid = 'CH*SWIEE3069' then 'Winterthur'
+                when evseid = 'CH*ECUE98CSSA8HVSH7YFVZ66EEHJA4ZQ' then 'Schongau'
+                when evseid = 'CH*ECUEQDC9QUMD4BATLAYWRCJZ26ST8W' then 'Bülach'
+           end as city,
+           case when weekday in ('monday','tuesday','wednesday','thursday','friday') then 'weekday'
+           else 'weekend' end as weektime,
+           hour,
+           num_timestamps
+    from ladestationen_elektromobilitaet.count_status_per_hour_of_weekday a
+    join ladestationen_elektromobilitaet.metrics_and_features b using (evseid)
+    where evseid in ('CH*SWIEE3069', 'CH*ECUE98CSSA8HVSH7YFVZ66EEHJA4ZQ', 'CH*ECUEQDC9QUMD4BATLAYWRCJZ26ST8W')
+) c
+group by city, weektime, hour
+order by city, weektime, hour;
 
 
 
