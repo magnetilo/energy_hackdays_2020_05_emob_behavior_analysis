@@ -59,8 +59,6 @@ def data_preprocess(df):
     df.loc[df['is_hochtarif'] == True, 'tarif'] = hochtarif
     df['cost'] = df['increment'] * df['tarif'] / 1000
 
-    df.sort_values(by=['timestamp', 'connector', 'chargepoint',
-                       'charge_log_id'], ascending=True, inplace=True)
 
     # Charging start, end time and duration
     # We also remove charging time that last more than 12 hours
@@ -73,7 +71,7 @@ def data_preprocess(df):
     charging_length['is_too_long_charging'] = charging_length['charging_time'] > datetime.timedelta(
         hours=12)
 
-    df = pd.merge(df, charging_length, on='chargepoint_connector_log')
+    df = pd.merge(df, charging_length, on='chargepoint_connector_log', how='left')
 
     # Use of programmed charging
     comparing_time = df.loc[df['chargepoint_connector_log'].drop_duplicates(
@@ -82,5 +80,10 @@ def data_preprocess(df):
         comparing_time['charge_start'] - comparing_time['timestamp']).apply(lambda x: x.seconds / 3600) > 0.25
     df = df.merge(on='chargepoint_connector_log', right=comparing_time[[
                   'chargepoint_connector_log', 'use_programmed_start']], how='left')
+
+
+    # Sorting the values
+    df.sort_values(by=['timestamp', 'connector', 'chargepoint',
+                       'charge_log_id'], ascending=True, inplace=True)
 
     return df
