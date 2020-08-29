@@ -49,6 +49,20 @@
     <v-row>
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
+          <v-card-title>Hour Profile per City per Weekend</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsCity2"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
           <v-card-title>PRIVATE Consumption Weekday vs Weekend</v-card-title>
           <v-card-text>
             <Plotly
@@ -91,6 +105,7 @@ export default {
       datapoints: [],
       datapointsBar: [],
       datapointsBarWE: [],
+      datapointsCity2: [],
       privWE: [],
       layout: {},
       datapoints1: [],
@@ -162,6 +177,17 @@ export default {
           console.error(error);
         });
     },
+    cityWE() {
+      const path = 'http://localhost:5000/citywe';
+      axios.get(path)
+        .then((res) => {
+          this.datapointsCity2 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getMessage();
@@ -169,6 +195,7 @@ export default {
     this.getHourBarPlotsWE()
     this.latLong();
     this.privWEMeth();
+    this.cityWE();
   },
 };
 </script>

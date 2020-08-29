@@ -122,15 +122,15 @@ def lat_lon():
 
 def test_fct():
     return [{'y': [
-    0.05943275750876332473 * 100,
-    0.04712317096368065783 * 100,
-    0.04244929596970110481 * 100,
-    0.04810573870890297678 * 100,
-    0.02563388334773649259 * 100,
-    0.02294805453940804789 * 100,
-    0.06464654698386771179 * 100,
-    0.01896241171045365576 * 100, 
-    0.05660705272141365258 * 100], 
+    0.0614025232 * 100,
+    0.0577672736 * 100,
+    0.0475180925 * 100,
+    0.0458905243 * 100,
+    0.0270207808 * 100,
+    0.0256500294 * 100,
+    0.0536073557 * 100,
+    0.0215739358 * 100, 
+    0.0504336965 * 100], 
     'x': [
         'Grosszentren',
         'Nebenzentren der Grosszentren',
@@ -142,6 +142,41 @@ def test_fct():
         'Agrargemeinden',
         'Touristische Gemeinden'
     ], 'type': 'bar'}]
+
+def hour_profile_cityWE():
+    df_total = pd.DataFrame()
+    with open('../../public_temporal_data/hour_profile_for_3cities_per_weektime.json') as f:
+        df = pd.read_json(f)
+        df = df.transpose()
+        buelach = df[df['city'] == 'B\u00fclach']
+        city_center_weekend = buelach[buelach['weektime'] == 'weekend']
+        x1 = city_center_weekend['hour'].tolist()
+        y1 = (city_center_weekend['occupied_ratio']*100).tolist()
+        title1 = 'Bülach Weekend'
+
+        schonau = df[df['city'] == 'Schongau']
+        country_side_weekend = schonau[schonau['weektime'] == 'weekend']
+        x2 = country_side_weekend['hour'].tolist()
+        y2 = (country_side_weekend['occupied_ratio']*100).tolist()
+        title2 = 'Schongau Weekend'
+
+        winterthur = df[df['city'] == 'Winterthur']
+        touristic_weekend = winterthur[winterthur['weektime'] == 'weekend']
+        x3 = touristic_weekend['hour'].tolist()
+        y3 = (touristic_weekend['occupied_ratio']*100).tolist()
+        title3 = 'Winterthur Weekend'
+
+    return [
+        {'type': 'bar','name': title1,
+        'x': x1,
+        'y': y1},
+        {'type': 'bar','name': title2,
+        'x': x2,
+        'y': y2},
+        {'type': 'bar','name': title3,
+        'x': x3,
+        'y': y3}
+    ]
 
 @app.route('/hourBarPlot', methods=['GET'])
 def hourBarPlot():
@@ -209,7 +244,11 @@ def privWE():
 
 @app.route('/erica', methods=['GET'])
 def erica():
-    return jsonify(charge_type_v_cid(df_clean))
+    return jsonify(charge_type_v_cid(df_clean)) 
+
+@app.route('/citywe', methods=['GET'])
+def cityWE():
+    return json.dumps(hour_profile_cityWE())   
 
 @app.route('/', methods=['GET'])
 def index():
