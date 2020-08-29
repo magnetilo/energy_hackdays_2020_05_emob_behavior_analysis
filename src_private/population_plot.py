@@ -181,3 +181,16 @@ def plot_hourly_consumption(df):
     }
     
     return {'data': data, 'layout': layout}
+
+def charge_type_v_cid(df,scale=True):
+    '''plot charge type vs chargepoint_connector id in stacked bar plot'''
+    xax=df.chargepoint_connector.dropna().unique()
+    nlo=np.array([len(df.query("kWh_type == 'low' and chargepoint_connector == @h")) for h in xax])
+    nmid=np.array([len(df.query("kWh_type == 'mid' and chargepoint_connector == @h")) for h in xax])
+    nhi=np.array([len(df.query("kWh_type == 'high' and chargepoint_connector == @h")) for h in xax])
+    nex=np.array([len(df.query("kWh_type == 'extrem' and chargepoint_connector == @h")) for h in xax])
+
+    if scale:
+        fac=nlo+nmid+nhi+nex
+    else:
+        fac=1.
