@@ -112,3 +112,8 @@ Weekend VS weekdays behaviour for private customers: hourly consumption:
 
 ![hourly_consumption](imgs/hourly_consumption.png)
 
+Example of behaviour differences between two private customers:
+
+![percentage_of_max_charge_1](imgs/percentage_of_max_charge_1.png)
+
+![percentage_of_max_charge_2](imgs/percentage_of_max_charge_2.png)
