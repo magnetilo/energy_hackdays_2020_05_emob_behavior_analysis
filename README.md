@@ -62,6 +62,7 @@ The first query is about getting an overlook over all the EV-Charging points, th
 ### Charging points utilization
 
 Features analysis:
+
 ![extraTreesRegressor](/public_metrics_features_analysis/ExtraTreesRegressor.png)
 
 
@@ -78,4 +79,5 @@ Legend:
 
 
 Occupied ration distribution:
+
 ![occupied_ratio_distribution](imgs/occupied_ratio_distribution.png)
