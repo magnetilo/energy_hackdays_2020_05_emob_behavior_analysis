@@ -32,6 +32,7 @@ def data_preprocess(df):
     # Add some time related informaiton
     df['weekday'] = df['timestamp'].dt.weekday
     df['hour'] = df['timestamp'].dt.hour
+    df['month'] = df['timestamp'].dt.month
     df['during_corona'] = (COVID_START <= df['timestamp']
                            ) & (df['timestamp'] <= COVID_END)
 
@@ -63,7 +64,7 @@ def data_preprocess(df):
 
     # Charging start, end time and duration
     # We also remove charging time that last more than 12 hours
-    charging_length = df[~df['is_charging']].groupby('chargepoint_connector_log')[
+    charging_length = df[df['is_charging']].groupby('chargepoint_connector_log')[
         'timestamp'].agg([min, max])
     charging_length.rename(
         columns={'min': 'charge_start', 'max': 'charge_end'}, inplace=True)
@@ -73,5 +74,13 @@ def data_preprocess(df):
         hours=12)
 
     df = pd.merge(df, charging_length, on='chargepoint_connector_log')
+
+    # Use of programmed charging
+    comparing_time = df.loc[df['chargepoint_connector_log'].drop_duplicates(
+        keep='first').index, ['chargepoint_connector_log', 'charge_start', 'timestamp']].copy()
+    comparing_time['use_programmed_start'] = (
+        comparing_time['charge_start'] - comparing_time['timestamp']).apply(lambda x: x.seconds / 3600) > 0.25
+    df = df.merge(on='chargepoint_connector_log', right=comparing_time[[
+                  'chargepoint_connector_log', 'use_programmed_start']], how='left')
 
     return df
