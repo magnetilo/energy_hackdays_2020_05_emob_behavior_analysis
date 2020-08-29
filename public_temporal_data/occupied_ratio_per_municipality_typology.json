@@ -1,5 +1,5 @@
 {"municipal_typologie_id": "municipal_typologie_id", "municipal_typologie": "municipal_typologie", "num_occupied": "num_occupied", "num_tot": "num_tot", "occupied_ratio": "occupied_ratio"}
-{"municipal_typologie_id": "8", "municipal_typologie": "Agrargemeinden", "num_occupied": "131174", "num_tot": "6917580", "occupied_ratio": "0.01896241171045365576"}
+{"municipal_typologie_id": "8", ".": "Agrargemeinden", "num_occupied": "131174", "num_tot": "6917580", "occupied_ratio": "0.01896241171045365576"}
 {"municipal_typologie_id": "1", "municipal_typologie": "Grosszentren", "num_occupied": "989475", "num_tot": "16648647", "occupied_ratio": "0.05943275750876332473"}
 {"municipal_typologie_id": "3", "municipal_typologie": "G\u00fcrtel der Grosszentren", "num_occupied": "836800", "num_tot": "19712930", "occupied_ratio": "0.04244929596970110481"}
 {"municipal_typologie_id": "5", "municipal_typologie": "G\u00fcrtel der Mittelzentren", "num_occupied": "705934", "num_tot": "27539097", "occupied_ratio": "0.02563388334773649259"}
