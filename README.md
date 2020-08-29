@@ -60,5 +60,5 @@ The first query is about getting an overlook over all the EV-Charging points, th
 ## Analyses
 
 ### Charging points utilization
-![Overview(/public_metrics_features_analysis/ExtraTreesRegressor.png)
+![extraTreesRegressor](/public_metrics_features_analysis/ExtraTreesRegressor.png)
 ![occupied_ratio_distribution](imgs/occupied_ratio_distribution.png)
