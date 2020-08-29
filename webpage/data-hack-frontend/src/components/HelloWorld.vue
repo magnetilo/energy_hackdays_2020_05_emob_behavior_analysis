@@ -78,14 +78,7 @@ export default {
       datapointsBar: [],
       datapointsBarWE: [],
       layout: {},
-      datapoints1: [
-        {
-          type: "scattermapbox",
-          lon: [8, 8.1],
-          lat: [47, 46.8],
-          marker: { color: "red", size: 5 },
-        },
-      ],
+      datapoints1: [],
       layoutMap: {
         dragmode: "zoom",
         mapbox: {
@@ -132,11 +125,23 @@ export default {
           console.error(error);
         });
     },
+    latLong() {
+      const path = 'http://localhost:5000/latLong';
+      axios.get(path)
+        .then((res) => {
+          this.datapoints1 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getMessage();
     this.getHourBarPlots()
     this.getHourBarPlotsWE()
+    this.latLong();
   },
 };
 </script>

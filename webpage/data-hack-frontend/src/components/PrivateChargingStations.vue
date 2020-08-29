@@ -111,6 +111,54 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-text>
+            <Plotly
+              :data="plota"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-text>
+            <Plotly
+              :data="plotb"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-text>
+            <Plotly
+              :data="plotc"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-text>
+            <Plotly
+              :data="plotd"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -137,6 +185,10 @@ export default {
       plot6: [],
       plot7: [],
       plot8: [],
+      plota: [],
+      plotb: [],
+      plotc: [],
+      plotd: [],
     };
   },
   methods: {
@@ -253,6 +305,54 @@ export default {
           console.error(error);
         });
     },
+    getPlota() {
+      const path = "http://localhost:5000/plota";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plota = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlotb() {
+      const path = "http://localhost:5000/plotb";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plotb = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlotc() {
+      const path = "http://localhost:5000/plotc";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plotc = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlotd() {
+      const path = "http://localhost:5000/plotd";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plotd = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getPlot1();
@@ -263,6 +363,10 @@ export default {
     this.getPlot6();
     this.getPlot7();
     this.getPlot8();
+    this.getPlota();
+    this.getPlotb();
+    this.getPlotc();
+    this.getPlotd();
   },
 };
 </script>

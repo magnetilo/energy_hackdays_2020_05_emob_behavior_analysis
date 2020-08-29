@@ -102,6 +102,23 @@ def hour_profile_WE():
         'y': y3}
     ]
 
+def lat_lon():
+    df_total = pd.DataFrame()
+    with open('../../public_temporal_data/occupied_ratio_per_lat_lng.json') as f:
+        df = pd.read_json(f)
+        df = df.transpose()
+        x1 = df['lat'].tolist()
+        y1 = df['lng'].tolist()
+        text = (df['occupied_ratio']*100).tolist()
+
+    return [
+        {'type': 'scattermapbox','name': 'Charging Station Occupied Ratio',
+        'lat': x1,
+        'lon': y1,
+        'text': text,
+        'marker': { 'color': "red", 'size': 5 }}
+    ]
+
 
 def test_fct():
     return [{'y': [
@@ -134,6 +151,10 @@ def hourBarPlot():
 def hourBarPlotWE():
     return json.dumps(hour_profile_WE())
 
+@app.route('/latLong', methods=['GET'])
+def latLong():
+    return json.dumps(lat_lon())
+
 @app.route('/plot1', methods=['GET'])
 def plot1():
     return jsonify(plot_distribution_charging_begin_day('15_20', df_clean))
@@ -165,6 +186,22 @@ def plot7():
 @app.route('/plot8', methods=['GET'])
 def plot8():
     return jsonify(plot_percentage_maxcharge('11_16', df_clean))
+
+@app.route('/plota', methods=['GET'])
+def plota():
+    return jsonify(total_consumption_plt(df_clean))
+
+@app.route('/plotb', methods=['GET'])
+def plotb():
+    return jsonify(charging_amount_plt(df_clean))
+
+@app.route('/plotc', methods=['GET'])
+def plotc():
+    return jsonify(overall_load_curve_plt(load_curve_df))
+
+@app.route('/plotd', methods=['GET'])
+def plotd():
+    return jsonify(median_load_energy_plt(load_curve_df))
 
 @app.route('/', methods=['GET'])
 def index():
