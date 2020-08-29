@@ -14,7 +14,7 @@ def total_consumption_plt(df_clean):
     total_cons = total_consumption(df_clean)
     
     data = [{
-        'x':total_cons.index.tolist(),
+        'x':total_cons.index.values.tolist(),
         'y': (total_cons.cumsum()/1000).tolist(),
         'mode': 'lines',
         'name': 'total_consumption',
@@ -70,7 +70,7 @@ def charging_amount_plt(df_clean):
             'title': 'kWh/charge'
         },
         'yaxis': {
-            'title': 'Nb of charging periods'
+            'title': 'Nb of charging processes'
         }
     }
     
