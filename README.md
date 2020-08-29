@@ -1,7 +1,15 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 
+## summary
+
+### findings
+...
+### faced challenges
+...
+
+
 ## things to do
-- run Data engineering part on database server
+- run everything on database server
 - productionalize frontend to shoot queries onto database and parse them to json 
 
         
@@ -9,8 +17,8 @@
 
 ### Architecture Overview
 
-![Overview](/imgs/data_eng_architecture.png)
-imgs/data_eng_architecture.png
+![Overview](/data_engineering_diemo/data_eng_architecture.png)
+data_engineering_diemo/data_eng_architecture.png
 
 ### Data Structure of diemo jsons
 
