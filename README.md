@@ -34,4 +34,14 @@ The dataload still takes over 10 hours and is not very efficient.
 ### SQL Queries
 The first query is about getting an overlook over all the EV-Charging points, the different operators.
 
-   
+## Visualisation ideas  
+
+### public ev charging stations
+- snapshot for specific time (occupied, available) on a map
+- top 3 utilised stations for each canton on a map
+- occupation ratio per station on a map
+- time-profile clusters --> which stations have the same time-profile
+- time-profile in city centers, countryside and touristic regions
+- aggregated occupation over time of a day/week for all stations
+- occupation over time of a day/week for a selected station
+- typically duration of a charging process on a map
