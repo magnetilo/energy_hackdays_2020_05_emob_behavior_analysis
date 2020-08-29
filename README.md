@@ -40,6 +40,11 @@ This provide good hints for a further automated customer segmentation.
 ![Overview](/data_engineering_diemo/data_eng_architecture.png)
 data_engineering_diemo/data_eng_architecture.png
 
+### Data Sources
+    - [EKZ-Repo](https://github.com/aselviar/e-mob_analysis)
+    - [Municipality Typologies](http://data.geo.admin.ch/ch.are.gemeindetypen/data.zip)
+    - [Population Hectar](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/bevoelkerung-haushalte-ab-2010.html)
+
 ### Data Structure of diemo jsons
 
 - EVSEStatuses
