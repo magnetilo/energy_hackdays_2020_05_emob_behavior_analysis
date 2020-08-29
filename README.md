@@ -19,17 +19,13 @@
 - handling data errors
 ...
 
-## things to do
-- run everything on database server
-- productionalize frontend to shoot queries onto database and parse them to json 
-
         
 ## Data Engineering
 
 ### Architecture Overview
 
-![Overview](/data_engineering_diemo/data_eng_architecture.png)
-data_engineering_diemo/data_eng_architecture.png
+![Overview](/imgs/data_eng_architecture.png)
+
 
 ### Data Structure of diemo jsons
 
@@ -52,10 +48,10 @@ The dataload still takes over 10 hours and is not very efficient.
 
 ### SQL Queries
 The first query is about getting an overlook over all the EV-Charging points, the different operators.
-
-## Visualisation ideas  
-
-### public ev charging stations
+We additionally provided some other queries which helped us explore the data.
+## Further ideas  
+### Visualitzation
+#### public ev charging stations
 - snapshot for specific time (occupied, available) on a map
 - top 3 utilised stations for each canton on a map
 - occupation ratio per station on a map
@@ -65,6 +61,10 @@ The first query is about getting an overlook over all the EV-Charging points, th
 - occupation over time of a day/week for a selected station
 - typically duration of a charging process on a map
 
+#### Data Engineering
+- run everything on database server
+- productionalize frontend to shoot queries onto database and parse them to json
+- deploy frontend onto docker image and host in cloud 
 
 ## Analyses
 
