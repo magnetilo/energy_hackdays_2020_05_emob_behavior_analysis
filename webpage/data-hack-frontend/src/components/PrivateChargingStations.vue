@@ -6,28 +6,26 @@
           E-Mobility Behaviour at Home
         </h1>
       </v-col>
-      <v-col class="mb-5" cols="12">
+    </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-menu>
-            <template v-slot:activator="{ on, attrs }">
-              <v-btn color="primary" dark v-bind="attrs" v-on="on">
-                Choose id...
-              </v-btn>
-            </template>
-            <v-list>
-              <v-list-item
-                v-for="(item, index) in items"
-                :key="index"
-                @click="getOneBar(item)"
-              >
-                <v-list-item-title>{{ item }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-menu>
-          <v-card-title>Dummy Bar Plot</v-card-title>
+          <v-card-title>User 15_20</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
+              :data="plot1"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>User 12_17</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="plot2"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -38,10 +36,10 @@
     <v-row>
       <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Plot X</v-card-title>
+          <v-card-title>User 4_9</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
+              :data="plot3"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -50,10 +48,10 @@
       </v-col>
       <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>PlotY</v-card-title>
+          <v-card-title>User 6_11</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
+              :data="plot4"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -62,12 +60,12 @@
       </v-col>
     </v-row>
     <v-row>
-            <v-col class="mb-5" cols="6">
+      <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Plot A-1</v-card-title>
+          <v-card-title>User 5_10</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
+              :data="plot5"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -76,10 +74,10 @@
       </v-col>
       <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Plot A-2</v-card-title>
+          <v-card-title>User 18_23</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
+              :data="plot6"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -88,12 +86,12 @@
       </v-col>
     </v-row>
     <v-row>
-            <v-col class="mb-5" cols="6">
+      <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Plot B-1</v-card-title>
+          <v-card-title>User 5_10</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
+              :data="plot7"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -102,36 +100,10 @@
       </v-col>
       <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Plot B-2</v-card-title>
+          <v-card-title>User 11_16</v-card-title>
           <v-card-text>
             <Plotly
-              :data="datapointsBar"
-              :layout="layout"
-              :display-mode-bar="false"
-            ></Plotly>
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
-    <v-row>
-            <v-col class="mb-5" cols="6">
-        <v-card elevation="5">
-          <v-card-title>Plot C-1</v-card-title>
-          <v-card-text>
-            <Plotly
-              :data="datapointsBar"
-              :layout="layout"
-              :display-mode-bar="false"
-            ></Plotly>
-          </v-card-text>
-        </v-card>
-      </v-col>
-      <v-col class="mb-5" cols="6">
-        <v-card elevation="5">
-          <v-card-title>Plot C-2</v-card-title>
-          <v-card-text>
-            <Plotly
-              :data="datapointsBar"
+              :data="plot8"
               :layout="layout"
               :display-mode-bar="false"
             ></Plotly>
@@ -157,22 +129,17 @@ export default {
       layout: {},
       datapointsBar: [],
       options: {},
-      items: [],
+      plot1: [],
+      plot2: [],
+      plot3: [],
+      plot4: [],
+      plot5: [],
+      plot6: [],
+      plot7: [],
+      plot8: [],
     };
   },
   methods: {
-    getItems() {
-      const path = "http://localhost:5000/private";
-      axios
-        .get(path)
-        .then((res) => {
-          this.items = res.data;
-        })
-        .catch((error) => {
-          // eslint-disable-next-line
-          console.error(error);
-        });
-    },
     getOneBar(id) {
       const path = "http://localhost:5000/private";
       const requestOptions = {
@@ -190,9 +157,112 @@ export default {
           console.error(error);
         });
     },
+    getPlot1() {
+      const path = "http://localhost:5000/plot1";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot1 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot2() {
+      const path = "http://localhost:5000/plot2";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot2 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot3() {
+      const path = "http://localhost:5000/plot3";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot3 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot4() {
+      const path = "http://localhost:5000/plot4";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot4 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot5() {
+      const path = "http://localhost:5000/plot5";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot5 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot6() {
+      const path = "http://localhost:5000/plot6";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot6 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot7() {
+      const path = "http://localhost:5000/plot7";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot7 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getPlot8() {
+      const path = "http://localhost:5000/plot8";
+      axios
+        .get(path)
+        .then((res) => {
+          this.plot8 = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
-    this.getItems();
+    this.getPlot1();
+    this.getPlot2();
+    this.getPlot3();
+    this.getPlot4();
+    this.getPlot5();
+    this.getPlot6();
+    this.getPlot7();
+    this.getPlot8();
   },
 };
 </script>

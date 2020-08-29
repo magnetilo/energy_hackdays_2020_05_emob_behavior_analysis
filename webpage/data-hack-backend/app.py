@@ -22,30 +22,15 @@ project_path = os.path.abspath(os.path.join(app_file_path, '..', '..'))
 sys.path.append(os.path.abspath(project_path))
 # Import private data set functions
 from src_private.load_process import load_private, data_preprocess
+from src_private.population_plot import load_curve, overall_load_curve_plt, median_load_energy_plt, charging_amount, charging_amount_plt, total_consumption, total_consumption_plt
+from src_private.user_plot import plot_consumption_history, plot_charging_history, plot_distribution_charging_begin_day, plot_distribution_charging_begin_hour, plot_charging_time_distribution, plot_distribution_programmed_charging, plot_energy_by_charge_distribution, plot_percentage_maxcharge, plot_monthly_cost
+
 # Load an preprocess the data
 df = data_preprocess(load_private("../../private_data/metervalues_anonymized.csv"))
 
-def get_private_ids(df):
-    """Get all the unique connectors"""
-    return df['chargepoint_connector'].unique().tolist()
-def test_plots(df, id):
-    """Test function"""
-    sub_df = df[df['chargepoint_connector'] == id]
-    return [{
-        'x': sub_df['timestamp'].values.tolist(),
-        'y': sub_df['increment'].tolist(),
-        'mode': 'lines',
-        'type': 'scatter',
-        'name': 'plot_1'
-    },
-    {
-        'x': sub_df['timestamp'].values.tolist(),
-        'y': (sub_df['increment'] + 1000).tolist(),
-        'mode': 'lines',
-        'type': 'scatter',
-        'name': 'plot_2'
-    }
-    ]
+list_filter = ['is_extrem_value', 'is_charging', 'is_too_long_charging']
+df_clean = df[(df['is_extrem_value'] == False) & (df['is_charging'] == True) & (df['is_too_long_charging'] == False)]
+load_curve_df = load_curve(df_clean)
 
 def hour_profile():
     df_total = pd.DataFrame()
@@ -149,17 +134,47 @@ def hourBarPlot():
 def hourBarPlotWE():
     return json.dumps(hour_profile_WE())
 
+@app.route('/plot1', methods=['GET'])
+def plot1():
+    return jsonify(plot_distribution_charging_begin_day('15_20', df_clean))
+
+@app.route('/plot2', methods=['GET'])
+def plot2():
+    return jsonify(plot_distribution_charging_begin_day('12_17', df_clean))
+
+@app.route('/plot3', methods=['GET'])
+def plot3():
+    return jsonify(plot_distribution_charging_begin_hour('4_9', df_clean))
+
+@app.route('/plot4', methods=['GET'])
+def plot4():
+    return jsonify(plot_distribution_charging_begin_hour('6_11', df_clean))
+
+@app.route('/plot5', methods=['GET'])
+def plot5():
+    return jsonify(plot_distribution_programmed_charging('5_10', df_clean))
+
+@app.route('/plot6', methods=['GET'])
+def plot6():
+    return jsonify(plot_distribution_programmed_charging('18_23', df_clean))
+
+@app.route('/plot7', methods=['GET'])
+def plot7():
+    return jsonify(plot_percentage_maxcharge('5_10', df_clean))
+
+@app.route('/plot8', methods=['GET'])
+def plot8():
+    return jsonify(plot_percentage_maxcharge('11_16', df_clean))
+
 @app.route('/', methods=['GET'])
 def index():
     return jsonify(test_fct())
 
-@app.route('/private', methods=['GET', 'POST'])
+@app.route('/private', methods=['POST'])
 def getById():
     if request.method == 'POST':
         id = request.get_json().get('id')
-        return json.dumps(test_plots(df, id))
-    else: 
-        return json.dumps(get_private_ids(df))
+        return json.dumps(plot_consumption_history(id, df_clean))
 
 
 if __name__ == '__main__':

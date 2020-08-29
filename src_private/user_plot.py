@@ -20,7 +20,7 @@ def plot_consumption_history(my_customer, df):
     sub_df = id_subset(my_customer, df)
 
     data = [{
-        'x':sub_df['timestamp'].values.tolist(),
+        'x':sub_df['timestamp'].astype(str).tolist(),
         'y': sub_df['metervalue'].tolist(),
         'mode': 'markers',
         'name': 'historical_consumption',
