@@ -1,5 +1,8 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 
+## things to do
+- run everything on database server
+- productionalize frontend to shoot queries onto database and parse them to json 
 
 ## Data Structure of diemo jsons
 
@@ -11,6 +14,11 @@
         - EVSEStatus
         
 ## Data Engineering
+
+### Architecture Overview
+
+![Overview](https://github.com/magnetilo/energy_hackdays_2020_05_emob_behavior_analysis/tree/master/data_engineering_diemo/data_eng_architecture.png?raw=true)
+
 ### Python and SQL part
 For parsing the 48'000 json files in 5 minutes resolution for 6 months we used python scripts.
 We had to implement various exceptions because of empty jsons.
