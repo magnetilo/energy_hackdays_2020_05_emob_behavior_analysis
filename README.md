@@ -5,12 +5,18 @@
 ### public ev charging station
 
 - Typology of municipalities is an important feature for occupied ratio
-- highest occupied ratio in big centers, peri-urban rural communes and touristic regions
-- no correlation between occupied ratio and population density
+- highest occupied ratio in big centers and peri-urban rural communes
+- low population density: many stations and comparibaly high occupation
+- with higher population density we have fewer amount of stations
+- minimum occupied ratio on 50 pers/ha population density
+- high occupation on high population density
 
 ### private ev charging station
-- different charging patterns of private customers
-- 
+Different charging patterns of private customers:
+- Chargning needs
+- Hours of charging
+- Week days of chargning
+This provide good hints for a further automated customer segmentation.
 
 ### comparison of privat & public charging behavior
 - different time-profile on weekdays and weekend in public, but not in private
@@ -101,3 +107,8 @@ Legend:
 Occupied ration distribution:
 
 ![occupied_ratio_distribution](imgs/occupied_ratio_distribution.png)
+
+Weekend VS weekdays behaviour for private customers: hourly consumption:
+
+![hourly_consumption](imgs/hourly_consumption.png)
+
