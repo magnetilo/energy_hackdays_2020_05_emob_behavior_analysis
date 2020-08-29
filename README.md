@@ -60,5 +60,17 @@ The first query is about getting an overlook over all the EV-Charging points, th
 ## Analyses
 
 ### Charging points utilization
+Features analysis:
 ![extraTreesRegressor](/public_metrics_features_analysis/ExtraTreesRegressor.png)
+Legend:
+1 | Grosszentren
+2 | Nebenzentren der Grosszentren
+3 | Gürtel der Grosszentren
+4 | Mittelzentren
+5 | Gürtel der Mittelzentren
+6 | Kleinzentren
+7 | Periurbane ländliche Gemeinden
+8 | Agrargemeinden
+9 | Touristische Gemeinden
+Occupied ration distribution:
 ![occupied_ratio_distribution](imgs/occupied_ratio_distribution.png)
