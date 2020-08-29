@@ -1,4 +1,5 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
+Erica Lastufka, physics @ www.fhnw.ch | Florence Meier, Full Stack Developmant (focus on frontend) | Benedikt Ramsauer, Data Scientist @ www.swiss-sdi.ch | Xavier Bays, Data Scientist @ www.swiss-sdi.ch | Tim Breitenbach, Analytics & Data Architect @ www.axpo.ch | Thilo Weber, Data Scientist @ www.geoimpact.ch | David Suter, Sustainable Energy Specialist @ www.geoimpact.ch | Pradip Ravichandran, Computer Science @ www.fhnw.ch 
 
 ## findings
 
