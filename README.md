@@ -12,20 +12,28 @@
 - high occupation on high population density
 
 ### private ev charging station
-- different charging patterns of private customers 
+- different charging patterns of private customers
+- 
+### comparison of privat & public charging behavior
+- different time-profile on weekdays and weekend in public, but not in private
+- 
 
 ## faced challenges
 - parsing and structuring provided raw data --> long running tasks
-- handling data errors
+- handling data errors and missing data
 ...
+
+## things to do
+- run everything on database server
+- productionalize frontend to shoot queries onto database and parse them to json 
 
         
 ## Data Engineering
 
 ### Architecture Overview
 
-![Overview](/imgs/data_eng_architecture.png)
-
+![Overview](/data_engineering_diemo/data_eng_architecture.png)
+data_engineering_diemo/data_eng_architecture.png
 
 ### Data Structure of diemo jsons
 
@@ -48,10 +56,10 @@ The dataload still takes over 10 hours and is not very efficient.
 
 ### SQL Queries
 The first query is about getting an overlook over all the EV-Charging points, the different operators.
-We additionally provided some other queries which helped us explore the data.
-## Further ideas  
-### Visualitzation
-#### public ev charging stations
+
+## Visualisation ideas  
+
+### public ev charging stations
 - snapshot for specific time (occupied, available) on a map
 - top 3 utilised stations for each canton on a map
 - occupation ratio per station on a map
@@ -61,10 +69,6 @@ We additionally provided some other queries which helped us explore the data.
 - occupation over time of a day/week for a selected station
 - typically duration of a charging process on a map
 
-#### Data Engineering
-- run everything on database server
-- productionalize frontend to shoot queries onto database and parse them to json
-- deploy frontend onto docker image and host in cloud 
 
 ## Analyses
 
