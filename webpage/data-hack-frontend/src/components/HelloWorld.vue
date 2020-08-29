@@ -23,7 +23,7 @@
     <v-row>
       <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Weekday</v-card-title>
+          <v-card-title>Hour Profile per Region per Weekday</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapointsBar"
@@ -35,7 +35,7 @@
       </v-col>
       <v-col class="mb-5" cols="6">
         <v-card elevation="5">
-          <v-card-title>Weekend</v-card-title>
+          <v-card-title>Hour Profile per Region per Weekend</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapointsBarWE"
@@ -121,10 +121,22 @@ export default {
           console.error(error);
         });
     },
+    getHourBarPlotsWE() {
+      const path = 'http://localhost:5000/hourBarPlotWE';
+      axios.get(path)
+        .then((res) => {
+          this.datapointsBarWE = res.data;
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
   },
   created() {
     this.getMessage();
     this.getHourBarPlots()
+    this.getHourBarPlotsWE()
   },
 };
 </script>

@@ -55,14 +55,20 @@ def hour_profile():
         city_center = df[df['region'] == 'city centers']
         city_center_weekdays = city_center[city_center['weektime'] == 'weekday']
         x1 = city_center_weekdays['hour'].tolist()
-        y1 = city_center_weekdays['occupied_ratio'].tolist()
+        y1 = (city_center_weekdays['occupied_ratio']*100).tolist()
         title1 = 'City Center Weekday'
 
         country_side = df[df['region'] == 'country side']
         country_side_weekdays = country_side[country_side['weektime'] == 'weekday']
         x2 = country_side_weekdays['hour'].tolist()
-        y2 = country_side_weekdays['occupied_ratio'].tolist()
+        y2 = (country_side_weekdays['occupied_ratio']*100).tolist()
         title2 = 'Country Side Weekday'
+
+        touristic = df[df['region'] == 'touristic']
+        touristic_weekdays = touristic[touristic['weektime'] == 'weekday']
+        x3 = touristic_weekdays['hour'].tolist()
+        y3 = (touristic_weekdays['occupied_ratio']*100).tolist()
+        title3 = 'Touristic Weekday'
 
     return [
         {'type': 'bar','name': title1,
@@ -70,8 +76,47 @@ def hour_profile():
         'y': y1},
         {'type': 'bar','name': title2,
         'x': x2,
-        'y': y2}
+        'y': y2},
+        {'type': 'bar','name': title3,
+        'x': x3,
+        'y': y3}
     ]
+
+def hour_profile_WE():
+    df_total = pd.DataFrame()
+    with open('../../public_temporal_data/hour_profile_per_region_per_weektime.json') as f:
+        df = pd.read_json(f)
+        df = df.transpose()
+        city_center = df[df['region'] == 'city centers']
+        city_center_weekend = city_center[city_center['weektime'] == 'weekend']
+        x1 = city_center_weekend['hour'].tolist()
+        y1 = (city_center_weekend['occupied_ratio']*100).tolist()
+        title1 = 'City Center Weekend'
+
+        country_side = df[df['region'] == 'country side']
+        country_side_weekend = country_side[country_side['weektime'] == 'weekend']
+        x2 = country_side_weekend['hour'].tolist()
+        y2 = (country_side_weekend['occupied_ratio']*100).tolist()
+        title2 = 'Country Side Weekend'
+
+        touristic = df[df['region'] == 'touristic']
+        touristic_weekend = touristic[touristic['weektime'] == 'weekend']
+        x3 = touristic_weekend['hour'].tolist()
+        y3 = (touristic_weekend['occupied_ratio']*100).tolist()
+        title3 = 'Touristic Weekend'
+
+    return [
+        {'type': 'bar','name': title1,
+        'x': x1,
+        'y': y1},
+        {'type': 'bar','name': title2,
+        'x': x2,
+        'y': y2},
+        {'type': 'bar','name': title3,
+        'x': x3,
+        'y': y3}
+    ]
+
 
 def test_fct():
     return [{'y': [
@@ -99,6 +144,10 @@ def test_fct():
 @app.route('/hourBarPlot', methods=['GET'])
 def hourBarPlot():
     return json.dumps(hour_profile())
+
+@app.route('/hourBarPlotWE', methods=['GET'])
+def hourBarPlotWE():
+    return json.dumps(hour_profile_WE())
 
 @app.route('/', methods=['GET'])
 def index():
