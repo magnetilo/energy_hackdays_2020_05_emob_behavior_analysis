@@ -48,7 +48,27 @@ def test_plots(df, id):
 
 
 def test_fct():
-    return [{'x': [1, 2, 3], 'y': [10, 20, 30], 'type': 'bar'}]
+    return [{'y': [
+    0.01896241171045365576 * 100, 
+    0.05943275750876332473 * 100,
+    0.04244929596970110481 * 100,
+    0.02563388334773649259 * 100,
+    0.02294805453940804789 * 100,
+    0.04810573870890297678 * 100,
+    0.04712317096368065783 * 100,
+    0.06464654698386771179 * 100,
+    0.05660705272141365258 * 100], 
+    'x': [
+        'Agrargemeinden',
+        'Grosszentren',
+        'Gürtel der Grosszentren',
+        'Gürtel der Mittelzentren',
+        'Kleinzentren',
+        'Mittelzentren',
+        'Nebenzentren der Grosszentren',
+        'Periurbane ländliche Gemeinden',
+        'Touristische Gemeinden'
+    ], 'type': 'bar'}]
 
 @app.route('/', methods=['GET'])
 def index():
