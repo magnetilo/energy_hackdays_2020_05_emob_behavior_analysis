@@ -112,7 +112,7 @@ Weekend VS weekdays behaviour for private customers: hourly consumption:
 
 ![hourly_consumption](imgs/hourly_consumption.png)
 
-Example of behaviour differences between two private customers:
+Example of behaviour differences between two private customers: Distribution of the percentage of the whole battery that is charged.
 
 ![percentage_of_max_charge_1](imgs/percentage_of_max_charge_1.png)
 
