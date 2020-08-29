@@ -17,7 +17,7 @@
 
 ### Architecture Overview
 
-![Overview](https://github.com/magnetilo/energy_hackdays_2020_05_emob_behavior_analysis/tree/master/data_engineering_diemo/data_eng_architecture.png?raw=true)
+![Overview](https://github.com/magnetilo/energy_hackdays_2020_05_emob_behavior_analysis/tree/master/data_engineering_diemo/data_eng_architecture.png)
 
 ### Python and SQL part
 For parsing the 48'000 json files in 5 minutes resolution for 6 months we used python scripts.
