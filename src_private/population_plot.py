@@ -14,7 +14,7 @@ def total_consumption_plt(df_clean):
     total_cons = total_consumption(df_clean)
     
     data = [{
-        'x':total_cons.index.values.tolist(),
+        'x':total_cons.index.astype(str).tolist(),
         'y': (total_cons.cumsum()/1000).tolist(),
         'mode': 'lines',
         'name': 'total_consumption',
