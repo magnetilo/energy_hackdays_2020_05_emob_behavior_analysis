@@ -118,3 +118,12 @@ Example of behaviour differences between two private customers: Distribution of 
 ![percentage_of_max_charge_1](imgs/percentage_of_max_charge_1.png)
 
 ![percentage_of_max_charge_2](imgs/percentage_of_max_charge_2.png)
+
+Load curve for private customers:
+
+![ecars_load_curve](imgs/ecars_load_curve.png)
+
+Overall energy consumption by private e-cars. This also show the adoption curve. The red zone corresponds to COVID time.
+
+![total_consumption](imgs/total_consumption.png)
+
