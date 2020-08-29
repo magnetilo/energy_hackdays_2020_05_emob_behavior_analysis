@@ -1,6 +1,21 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 Erica Lastufka, physics @ www.fhnw.ch | Florence Meier, Full Stack Developmant (focus on frontend) | Benedikt Ramsauer, Data Scientist @ www.swiss-sdi.ch | Xavier Bays, Data Scientist @ www.swiss-sdi.ch | Tim Breitenbach, Analytics & Data Architect @ www.axpo.ch | Pradip Ravichandran, Computer Science @ www.fhnw.ch | Thilo Weber, Data Scientist @ www.geoimpact.ch | David Suter, Sustainable Energy Specialist @ www.geoimpact.ch 
 
+## Dashboard Sreenshots
+
+![sreenshot1](imgs/Screenshot from 2020-08-29 15-06-20.png)
+
+![sreenshot2](imgs/Screenshot from 2020-08-29 15-06-47.png)
+
+![sreenshot3](imgs/Screenshot from 2020-08-29 15-07-14.png)
+
+![sreenshot4](imgs/Screenshot from 2020-08-29 15-07-44.png)
+
+![sreenshot5](imgs/Screenshot from 2020-08-29 15-08-04.png)
+
+![sreenshot6](imgs/Screenshot from 2020-08-29 15-08-21.png)
+
+
 ## findings
 
 ### public ev charging station
