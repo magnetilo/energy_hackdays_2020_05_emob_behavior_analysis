@@ -3,18 +3,46 @@
     <v-row class="text-center">
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          E-Mobility Behaviour at Home {{msg}}
+          E-Mobility Behaviour at Home
         </h1>
       </v-col>
 
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
-          <v-card-title>Dummy Plot</v-card-title>
+          <v-card-title>Dummy Line Plot</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapoints"
               :layout="layout"
               :display-mode-bar="true"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="12">
+        <v-card elevation="5">
+          <v-menu>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn color="primary" dark v-bind="attrs" v-on="on">
+                Dropdown
+              </v-btn>
+            </template>
+            <v-list>
+              <v-list-item
+                v-for="(item, index) in items"
+                :key="index"
+                @click="getOneBar(index + 1)"
+              >
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+          <v-card-title>Dummy Bar Plot</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
             ></Plotly>
           </v-card-text>
         </v-card>
@@ -25,8 +53,7 @@
 
 <script>
 import { Plotly } from "vue-plotly";
-import axios from 'axios';
-
+import axios from "axios";
 
 export default {
   name: "PrivateChargingStations",
@@ -35,18 +62,42 @@ export default {
   },
   data: function() {
     return {
-      msg: "",
-      datapoints: [{ x: [1, 7, 7, 15, 16, 21], y: [2, 3, 4, 7, 9, 13] }],
+      datapoints: [],
       layout: {},
+      datapointsBar: [],
       options: {},
+      items: [
+        { title: "id 1" },
+        { title: "id 2" },
+        { title: "id 3" },
+        { title: "id 4" },
+      ],
     };
   },
   methods: {
-    getMessage() {
-      const path = 'http://localhost:5000/private';
-      axios.get(path)
+    getLine() {
+      const path = "http://localhost:5000/private";
+      axios
+        .get(path)
         .then((res) => {
-          this.msg = res.data;
+          this.datapoints = [res.data];
+        })
+        .catch((error) => {
+          // eslint-disable-next-line
+          console.error(error);
+        });
+    },
+    getOneBar(id) {
+      const path = "http://localhost:5000/private";
+      const requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        id: id,
+      };
+      axios
+        .post(path, requestOptions)
+        .then((res) => {
+          this.datapointsBar = [res.data];
         })
         .catch((error) => {
           // eslint-disable-next-line
@@ -55,7 +106,7 @@ export default {
     },
   },
   created() {
-    this.getMessage();
+    this.getLine();
   },
 };
 </script>
