@@ -1,9 +1,10 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 
 ## findings
-...
+- high occupied ratio of public charging stations in big centers and peri-urban rural communes
+
 ## faced challenges
-- parsing and structuring provided raw data
+- parsing and structuring provided raw data --> long running tasks
 ...
 
 
