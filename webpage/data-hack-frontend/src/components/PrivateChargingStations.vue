@@ -35,6 +35,110 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot X</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>PlotY</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+            <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot A-1</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot A-2</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+            <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot B-1</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot B-2</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+            <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot C-1</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col class="mb-5" cols="6">
+        <v-card elevation="5">
+          <v-card-title>Plot C-2</v-card-title>
+          <v-card-text>
+            <Plotly
+              :data="datapointsBar"
+              :layout="layout"
+              :display-mode-bar="false"
+            ></Plotly>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

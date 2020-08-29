@@ -1,192 +1,1538 @@
-{"region": "city centers", "weektime": "weekday", "hour": "0", "num_occupied": "7896", "num_tot": "178635", "occupied_ratio": "0.04420186413636745319"}
-{"region": "city centers", "weektime": "weekday", "hour": "1", "num_occupied": "7727", "num_tot": "178726", "occupied_ratio": "0.04323377684276490270"}
-{"region": "city centers", "weektime": "weekday", "hour": "2", "num_occupied": "7488", "num_tot": "176339", "occupied_ratio": "0.04246366373859441190"}
-{"region": "city centers", "weektime": "weekday", "hour": "3", "num_occupied": "7456", "num_tot": "176195", "occupied_ratio": "0.04231675132665512642"}
-{"region": "city centers", "weektime": "weekday", "hour": "4", "num_occupied": "7267", "num_tot": "171287", "occupied_ratio": "0.04242587003100060133"}
-{"region": "city centers", "weektime": "weekday", "hour": "5", "num_occupied": "7302", "num_tot": "174042", "occupied_ratio": "0.04195539007825697245"}
-{"region": "city centers", "weektime": "weekday", "hour": "6", "num_occupied": "7087", "num_tot": "171436", "occupied_ratio": "0.04133904197484775660"}
-{"region": "city centers", "weektime": "weekday", "hour": "7", "num_occupied": "7392", "num_tot": "176585", "occupied_ratio": "0.04186086020896452134"}
-{"region": "city centers", "weektime": "weekday", "hour": "8", "num_occupied": "7711", "num_tot": "174161", "occupied_ratio": "0.04427512474090066088"}
-{"region": "city centers", "weektime": "weekday", "hour": "9", "num_occupied": "8733", "num_tot": "176619", "occupied_ratio": "0.04944541640480356021"}
-{"region": "city centers", "weektime": "weekday", "hour": "10", "num_occupied": "9889", "num_tot": "176556", "occupied_ratio": "0.05601055755680917103"}
-{"region": "city centers", "weektime": "weekday", "hour": "11", "num_occupied": "10862", "num_tot": "176535", "occupied_ratio": "0.06152887529385107769"}
-{"region": "city centers", "weektime": "weekday", "hour": "12", "num_occupied": "10785", "num_tot": "176120", "occupied_ratio": "0.06123665682489211901"}
-{"region": "city centers", "weektime": "weekday", "hour": "13", "num_occupied": "11134", "num_tot": "176260", "occupied_ratio": "0.06316804720299557472"}
-{"region": "city centers", "weektime": "weekday", "hour": "14", "num_occupied": "11289", "num_tot": "174233", "occupied_ratio": "0.06479254790998260949"}
-{"region": "city centers", "weektime": "weekday", "hour": "15", "num_occupied": "11214", "num_tot": "176604", "occupied_ratio": "0.06349799551539036488"}
-{"region": "city centers", "weektime": "weekday", "hour": "16", "num_occupied": "10667", "num_tot": "173312", "occupied_ratio": "0.06154795974889217134"}
-{"region": "city centers", "weektime": "weekday", "hour": "17", "num_occupied": "10835", "num_tot": "179757", "occupied_ratio": "0.06027581679712055720"}
-{"region": "city centers", "weektime": "weekday", "hour": "18", "num_occupied": "10281", "num_tot": "181173", "occupied_ratio": "0.05674686625490553228"}
-{"region": "city centers", "weektime": "weekday", "hour": "19", "num_occupied": "10693", "num_tot": "186455", "occupied_ratio": "0.05734895819366603202"}
-{"region": "city centers", "weektime": "weekday", "hour": "20", "num_occupied": "10729", "num_tot": "184166", "occupied_ratio": "0.05825722446054103363"}
-{"region": "city centers", "weektime": "weekday", "hour": "21", "num_occupied": "10454", "num_tot": "185325", "occupied_ratio": "0.05640901119654660731"}
-{"region": "city centers", "weektime": "weekday", "hour": "22", "num_occupied": "9340", "num_tot": "179214", "occupied_ratio": "0.05211646411552668876"}
-{"region": "city centers", "weektime": "weekday", "hour": "23", "num_occupied": "9027", "num_tot": "179265", "occupied_ratio": "0.05035561877667140825"}
-{"region": "city centers", "weektime": "weekend", "hour": "0", "num_occupied": "45375", "num_tot": "1041178", "occupied_ratio": "0.04358044445810418584"}
-{"region": "city centers", "weektime": "weekend", "hour": "1", "num_occupied": "44295", "num_tot": "1040221", "occupied_ratio": "0.04258229741564532921"}
-{"region": "city centers", "weektime": "weekend", "hour": "2", "num_occupied": "42967", "num_tot": "1023216", "occupied_ratio": "0.04199211114759737924"}
-{"region": "city centers", "weektime": "weekend", "hour": "3", "num_occupied": "43386", "num_tot": "1031860", "occupied_ratio": "0.04204640164363382629"}
-{"region": "city centers", "weektime": "weekend", "hour": "4", "num_occupied": "42707", "num_tot": "1024467", "occupied_ratio": "0.04168704311607889761"}
-{"region": "city centers", "weektime": "weekend", "hour": "5", "num_occupied": "43055", "num_tot": "1030486", "occupied_ratio": "0.04178125661095832452"}
-{"region": "city centers", "weektime": "weekend", "hour": "6", "num_occupied": "44577", "num_tot": "1015242", "occupied_ratio": "0.04390775795327616470"}
-{"region": "city centers", "weektime": "weekend", "hour": "7", "num_occupied": "52171", "num_tot": "1047165", "occupied_ratio": "0.04982118386309702864"}
-{"region": "city centers", "weektime": "weekend", "hour": "8", "num_occupied": "57445", "num_tot": "1048881", "occupied_ratio": "0.05476789073307648818"}
-{"region": "city centers", "weektime": "weekend", "hour": "9", "num_occupied": "65796", "num_tot": "1074115", "occupied_ratio": "0.06125601076234853810"}
-{"region": "city centers", "weektime": "weekend", "hour": "10", "num_occupied": "67882", "num_tot": "1059853", "occupied_ratio": "0.06404850483982212628"}
-{"region": "city centers", "weektime": "weekend", "hour": "11", "num_occupied": "70792", "num_tot": "1061864", "occupied_ratio": "0.06666767118953086271"}
-{"region": "city centers", "weektime": "weekend", "hour": "12", "num_occupied": "72924", "num_tot": "1079643", "occupied_ratio": "0.06754454944828985137"}
-{"region": "city centers", "weektime": "weekend", "hour": "13", "num_occupied": "72315", "num_tot": "1087376", "occupied_ratio": "0.06650413472432718765"}
-{"region": "city centers", "weektime": "weekend", "hour": "14", "num_occupied": "70367", "num_tot": "1072842", "occupied_ratio": "0.06558934120774540892"}
-{"region": "city centers", "weektime": "weekend", "hour": "15", "num_occupied": "69194", "num_tot": "1059236", "occupied_ratio": "0.06532444138983191659"}
-{"region": "city centers", "weektime": "weekend", "hour": "16", "num_occupied": "65813", "num_tot": "1038471", "occupied_ratio": "0.06337490406568888298"}
-{"region": "city centers", "weektime": "weekend", "hour": "17", "num_occupied": "64625", "num_tot": "1070794", "occupied_ratio": "0.06035241138818484228"}
-{"region": "city centers", "weektime": "weekend", "hour": "18", "num_occupied": "60927", "num_tot": "1045555", "occupied_ratio": "0.05827240078235960806"}
-{"region": "city centers", "weektime": "weekend", "hour": "19", "num_occupied": "61765", "num_tot": "1065384", "occupied_ratio": "0.05797440171806597433"}
-{"region": "city centers", "weektime": "weekend", "hour": "20", "num_occupied": "58374", "num_tot": "1049105", "occupied_ratio": "0.05564171365115979811"}
-{"region": "city centers", "weektime": "weekend", "hour": "21", "num_occupied": "55301", "num_tot": "1054478", "occupied_ratio": "0.05244395805317891886"}
-{"region": "city centers", "weektime": "weekend", "hour": "22", "num_occupied": "50925", "num_tot": "1050761", "occupied_ratio": "0.04846487450523953592"}
-{"region": "city centers", "weektime": "weekend", "hour": "23", "num_occupied": "47458", "num_tot": "1039575", "occupied_ratio": "0.04565134790659644566"}
-{"region": "country side", "weektime": "weekday", "hour": "0", "num_occupied": "6945", "num_tot": "146496", "occupied_ratio": "0.04740743774574049803"}
-{"region": "country side", "weektime": "weekday", "hour": "1", "num_occupied": "6861", "num_tot": "146517", "occupied_ratio": "0.04682733061692499846"}
-{"region": "country side", "weektime": "weekday", "hour": "2", "num_occupied": "6726", "num_tot": "142836", "occupied_ratio": "0.04708896916743678064"}
-{"region": "country side", "weektime": "weekday", "hour": "3", "num_occupied": "6684", "num_tot": "144204", "occupied_ratio": "0.04635100274610967796"}
-{"region": "country side", "weektime": "weekday", "hour": "4", "num_occupied": "6518", "num_tot": "138876", "occupied_ratio": "0.04693395547106771508"}
-{"region": "country side", "weektime": "weekday", "hour": "5", "num_occupied": "6657", "num_tot": "143985", "occupied_ratio": "0.04623398270653193041"}
-{"region": "country side", "weektime": "weekday", "hour": "6", "num_occupied": "6624", "num_tot": "137943", "occupied_ratio": "0.04801983427937626411"}
-{"region": "country side", "weektime": "weekday", "hour": "7", "num_occupied": "6597", "num_tot": "144870", "occupied_ratio": "0.04553737833920066266"}
-{"region": "country side", "weektime": "weekday", "hour": "8", "num_occupied": "6615", "num_tot": "141909", "occupied_ratio": "0.04661437963765511701"}
-{"region": "country side", "weektime": "weekday", "hour": "9", "num_occupied": "6948", "num_tot": "145440", "occupied_ratio": "0.04777227722772277228"}
-{"region": "country side", "weektime": "weekday", "hour": "10", "num_occupied": "7061", "num_tot": "145281", "occupied_ratio": "0.04860236369518381619"}
-{"region": "country side", "weektime": "weekday", "hour": "11", "num_occupied": "7244", "num_tot": "145326", "occupied_ratio": "0.04984655189023299341"}
-{"region": "country side", "weektime": "weekday", "hour": "12", "num_occupied": "7662", "num_tot": "145548", "occupied_ratio": "0.05264242724049798005"}
-{"region": "country side", "weektime": "weekday", "hour": "13", "num_occupied": "7636", "num_tot": "145668", "occupied_ratio": "0.05242057280940220227"}
-{"region": "country side", "weektime": "weekday", "hour": "14", "num_occupied": "7091", "num_tot": "142146", "occupied_ratio": "0.04988532916860129726"}
-{"region": "country side", "weektime": "weekday", "hour": "15", "num_occupied": "7194", "num_tot": "145206", "occupied_ratio": "0.04954340729721912318"}
-{"region": "country side", "weektime": "weekday", "hour": "16", "num_occupied": "7335", "num_tot": "141845", "occupied_ratio": "0.05171137509253057915"}
-{"region": "country side", "weektime": "weekday", "hour": "17", "num_occupied": "7772", "num_tot": "146931", "occupied_ratio": "0.05289557683538531692"}
-{"region": "country side", "weektime": "weekday", "hour": "18", "num_occupied": "8035", "num_tot": "145464", "occupied_ratio": "0.05523703459275147115"}
-{"region": "country side", "weektime": "weekday", "hour": "19", "num_occupied": "7930", "num_tot": "152322", "occupied_ratio": "0.05206076600884967372"}
-{"region": "country side", "weektime": "weekday", "hour": "20", "num_occupied": "7788", "num_tot": "149193", "occupied_ratio": "0.05220084052200840522"}
-{"region": "country side", "weektime": "weekday", "hour": "21", "num_occupied": "7670", "num_tot": "151705", "occupied_ratio": "0.05055865001153554596"}
-{"region": "country side", "weektime": "weekday", "hour": "22", "num_occupied": "6709", "num_tot": "146241", "occupied_ratio": "0.04587632743211548061"}
-{"region": "country side", "weektime": "weekday", "hour": "23", "num_occupied": "6527", "num_tot": "146262", "occupied_ratio": "0.04462539825792071762"}
-{"region": "country side", "weektime": "weekend", "hour": "0", "num_occupied": "38872", "num_tot": "854458", "occupied_ratio": "0.04549316642830893970"}
-{"region": "country side", "weektime": "weekend", "hour": "1", "num_occupied": "38824", "num_tot": "853420", "occupied_ratio": "0.04549225469288275410"}
-{"region": "country side", "weektime": "weekend", "hour": "2", "num_occupied": "38267", "num_tot": "829928", "occupied_ratio": "0.04610881907828148948"}
-{"region": "country side", "weektime": "weekend", "hour": "3", "num_occupied": "37696", "num_tot": "846665", "occupied_ratio": "0.04452292228921710476"}
-{"region": "country side", "weektime": "weekend", "hour": "4", "num_occupied": "38049", "num_tot": "834406", "occupied_ratio": "0.04560010354671466888"}
-{"region": "country side", "weektime": "weekend", "hour": "5", "num_occupied": "37955", "num_tot": "854344", "occupied_ratio": "0.04442589870122573577"}
-{"region": "country side", "weektime": "weekend", "hour": "6", "num_occupied": "39574", "num_tot": "819278", "occupied_ratio": "0.04830350625794907223"}
-{"region": "country side", "weektime": "weekend", "hour": "7", "num_occupied": "45166", "num_tot": "860748", "occupied_ratio": "0.05247296537430235098"}
-{"region": "country side", "weektime": "weekend", "hour": "8", "num_occupied": "50288", "num_tot": "855303", "occupied_ratio": "0.05879553795555493199"}
-{"region": "country side", "weektime": "weekend", "hour": "9", "num_occupied": "51780", "num_tot": "885185", "occupied_ratio": "0.05849624654733191367"}
-{"region": "country side", "weektime": "weekend", "hour": "10", "num_occupied": "51074", "num_tot": "873078", "occupied_ratio": "0.05849878246846215344"}
-{"region": "country side", "weektime": "weekend", "hour": "11", "num_occupied": "51850", "num_tot": "874495", "occupied_ratio": "0.05929136244346737260"}
-{"region": "country side", "weektime": "weekend", "hour": "12", "num_occupied": "50539", "num_tot": "890863", "occupied_ratio": "0.05673038390863690601"}
-{"region": "country side", "weektime": "weekend", "hour": "13", "num_occupied": "51917", "num_tot": "898006", "occupied_ratio": "0.05781364489769556105"}
-{"region": "country side", "weektime": "weekend", "hour": "14", "num_occupied": "52241", "num_tot": "875213", "occupied_ratio": "0.05968946987761836262"}
-{"region": "country side", "weektime": "weekend", "hour": "15", "num_occupied": "52137", "num_tot": "873392", "occupied_ratio": "0.05969484492644768901"}
-{"region": "country side", "weektime": "weekend", "hour": "16", "num_occupied": "49693", "num_tot": "852605", "occupied_ratio": "0.05828373044962204069"}
-{"region": "country side", "weektime": "weekend", "hour": "17", "num_occupied": "47022", "num_tot": "877383", "occupied_ratio": "0.05359347058240243998"}
-{"region": "country side", "weektime": "weekend", "hour": "18", "num_occupied": "44297", "num_tot": "842803", "occupied_ratio": "0.05255913896841847976"}
-{"region": "country side", "weektime": "weekend", "hour": "19", "num_occupied": "43155", "num_tot": "873814", "occupied_ratio": "0.04938694047016870867"}
-{"region": "country side", "weektime": "weekend", "hour": "20", "num_occupied": "42440", "num_tot": "852285", "occupied_ratio": "0.04979554961075227183"}
-{"region": "country side", "weektime": "weekend", "hour": "21", "num_occupied": "41067", "num_tot": "865869", "occupied_ratio": "0.04742865260218347117"}
-{"region": "country side", "weektime": "weekend", "hour": "22", "num_occupied": "40448", "num_tot": "862778", "occupied_ratio": "0.04688112121542273911"}
-{"region": "country side", "weektime": "weekend", "hour": "23", "num_occupied": "39468", "num_tot": "853076", "occupied_ratio": "0.04626551444419957894"}
-{"region": "rest", "weektime": "weekday", "hour": "0", "num_occupied": "14377", "num_tot": "456112", "occupied_ratio": "0.03152076682919984565"}
-{"region": "rest", "weektime": "weekday", "hour": "1", "num_occupied": "14115", "num_tot": "456168", "occupied_ratio": "0.03094254748250644499"}
-{"region": "rest", "weektime": "weekday", "hour": "2", "num_occupied": "13370", "num_tot": "446374", "occupied_ratio": "0.02995246138888017671"}
-{"region": "rest", "weektime": "weekday", "hour": "3", "num_occupied": "13633", "num_tot": "447954", "occupied_ratio": "0.03043392848372823995"}
-{"region": "rest", "weektime": "weekday", "hour": "4", "num_occupied": "13270", "num_tot": "431751", "occupied_ratio": "0.03073530808266801930"}
-{"region": "rest", "weektime": "weekday", "hour": "5", "num_occupied": "13592", "num_tot": "447199", "occupied_ratio": "0.03039362789272784599"}
-{"region": "rest", "weektime": "weekday", "hour": "6", "num_occupied": "13419", "num_tot": "431833", "occupied_ratio": "0.03107451260093600999"}
-{"region": "rest", "weektime": "weekday", "hour": "7", "num_occupied": "14211", "num_tot": "447826", "occupied_ratio": "0.03173330713268099664"}
-{"region": "rest", "weektime": "weekday", "hour": "8", "num_occupied": "14312", "num_tot": "439598", "occupied_ratio": "0.03255701800281165974"}
-{"region": "rest", "weektime": "weekday", "hour": "9", "num_occupied": "15905", "num_tot": "449370", "occupied_ratio": "0.03539399603889890291"}
-{"region": "rest", "weektime": "weekday", "hour": "10", "num_occupied": "16840", "num_tot": "449443", "occupied_ratio": "0.03746860002269475773"}
-{"region": "rest", "weektime": "weekday", "hour": "11", "num_occupied": "17395", "num_tot": "449590", "occupied_ratio": "0.03869080717987499722"}
-{"region": "rest", "weektime": "weekday", "hour": "12", "num_occupied": "18306", "num_tot": "449385", "occupied_ratio": "0.04073567208518308355"}
-{"region": "rest", "weektime": "weekday", "hour": "13", "num_occupied": "18325", "num_tot": "449029", "occupied_ratio": "0.04081028174126838133"}
-{"region": "rest", "weektime": "weekday", "hour": "14", "num_occupied": "17719", "num_tot": "439666", "occupied_ratio": "0.04030104670363412227"}
-{"region": "rest", "weektime": "weekday", "hour": "15", "num_occupied": "17897", "num_tot": "447185", "occupied_ratio": "0.04002146762525576663"}
-{"region": "rest", "weektime": "weekday", "hour": "16", "num_occupied": "17148", "num_tot": "434956", "occupied_ratio": "0.03942467743863747138"}
-{"region": "rest", "weektime": "weekday", "hour": "17", "num_occupied": "17810", "num_tot": "456575", "occupied_ratio": "0.03900783003887641680"}
-{"region": "rest", "weektime": "weekday", "hour": "18", "num_occupied": "18157", "num_tot": "458617", "occupied_ratio": "0.03959076964002642728"}
-{"region": "rest", "weektime": "weekday", "hour": "19", "num_occupied": "18920", "num_tot": "475183", "occupied_ratio": "0.03981623921731206714"}
-{"region": "rest", "weektime": "weekday", "hour": "20", "num_occupied": "17559", "num_tot": "466153", "occupied_ratio": "0.03766789015623625719"}
-{"region": "rest", "weektime": "weekday", "hour": "21", "num_occupied": "16776", "num_tot": "472314", "occupied_ratio": "0.03551874388648229779"}
-{"region": "rest", "weektime": "weekday", "hour": "22", "num_occupied": "15076", "num_tot": "455057", "occupied_ratio": "0.03312991559299164720"}
-{"region": "rest", "weektime": "weekday", "hour": "23", "num_occupied": "14233", "num_tot": "455148", "occupied_ratio": "0.03127114696757977625"}
-{"region": "rest", "weektime": "weekend", "hour": "0", "num_occupied": "79364", "num_tot": "2661727", "occupied_ratio": "0.02981673176850969314"}
-{"region": "rest", "weektime": "weekend", "hour": "1", "num_occupied": "78369", "num_tot": "2660082", "occupied_ratio": "0.02946112187519031368"}
-{"region": "rest", "weektime": "weekend", "hour": "2", "num_occupied": "74386", "num_tot": "2595893", "occupied_ratio": "0.02865526429633270709"}
-{"region": "rest", "weektime": "weekend", "hour": "3", "num_occupied": "76687", "num_tot": "2636579", "occupied_ratio": "0.02908579640511435462"}
-{"region": "rest", "weektime": "weekend", "hour": "4", "num_occupied": "75939", "num_tot": "2602970", "occupied_ratio": "0.02917398202822160839"}
-{"region": "rest", "weektime": "weekend", "hour": "5", "num_occupied": "77272", "num_tot": "2661117", "occupied_ratio": "0.02903743052259633830"}
-{"region": "rest", "weektime": "weekend", "hour": "6", "num_occupied": "81611", "num_tot": "2572238", "occupied_ratio": "0.03172762396014676713"}
-{"region": "rest", "weektime": "weekend", "hour": "7", "num_occupied": "92104", "num_tot": "2669367", "occupied_ratio": "0.03450406032591247288"}
-{"region": "rest", "weektime": "weekend", "hour": "8", "num_occupied": "102692", "num_tot": "2659919", "occupied_ratio": "0.03860719067009183362"}
-{"region": "rest", "weektime": "weekend", "hour": "9", "num_occupied": "114730", "num_tot": "2746001", "occupied_ratio": "0.04178075681691303099"}
-{"region": "rest", "weektime": "weekend", "hour": "10", "num_occupied": "116329", "num_tot": "2709803", "occupied_ratio": "0.04292895092373873673"}
-{"region": "rest", "weektime": "weekend", "hour": "11", "num_occupied": "119657", "num_tot": "2715194", "occupied_ratio": "0.04406941087819139259"}
-{"region": "rest", "weektime": "weekend", "hour": "12", "num_occupied": "122178", "num_tot": "2761903", "occupied_ratio": "0.04423689028905070164"}
-{"region": "rest", "weektime": "weekend", "hour": "13", "num_occupied": "124722", "num_tot": "2782655", "occupied_ratio": "0.04482122289683773231"}
-{"region": "rest", "weektime": "weekend", "hour": "14", "num_occupied": "121261", "num_tot": "2718594", "occupied_ratio": "0.04460430649078163198"}
-{"region": "rest", "weektime": "weekend", "hour": "15", "num_occupied": "119527", "num_tot": "2698318", "occupied_ratio": "0.04429685455902528909"}
-{"region": "rest", "weektime": "weekend", "hour": "16", "num_occupied": "115147", "num_tot": "2625058", "occupied_ratio": "0.04386455461174572143"}
-{"region": "rest", "weektime": "weekend", "hour": "17", "num_occupied": "113148", "num_tot": "2736022", "occupied_ratio": "0.04135493062555783543"}
-{"region": "rest", "weektime": "weekend", "hour": "18", "num_occupied": "103631", "num_tot": "2655115", "occupied_ratio": "0.03903070111840730063"}
-{"region": "rest", "weektime": "weekend", "hour": "19", "num_occupied": "100843", "num_tot": "2726062", "occupied_ratio": "0.03699218873231790033"}
-{"region": "rest", "weektime": "weekend", "hour": "20", "num_occupied": "93165", "num_tot": "2663588", "occupied_ratio": "0.03497725624233177203"}
-{"region": "rest", "weektime": "weekend", "hour": "21", "num_occupied": "89865", "num_tot": "2697409", "occupied_ratio": "0.03331530368587040378"}
-{"region": "rest", "weektime": "weekend", "hour": "22", "num_occupied": "85083", "num_tot": "2689167", "occupied_ratio": "0.03163916558547684097"}
-{"region": "rest", "weektime": "weekend", "hour": "23", "num_occupied": "81250", "num_tot": "2659069", "occupied_ratio": "0.03055580731451496746"}
-{"region": "touristic", "weektime": "weekday", "hour": "0", "num_occupied": "2694", "num_tot": "45384", "occupied_ratio": "0.05936012691697514543"}
-{"region": "touristic", "weektime": "weekday", "hour": "1", "num_occupied": "2634", "num_tot": "45293", "occupied_ratio": "0.05815468173890005078"}
-{"region": "touristic", "weektime": "weekday", "hour": "2", "num_occupied": "2617", "num_tot": "44116", "occupied_ratio": "0.05932088131290234835"}
-{"region": "touristic", "weektime": "weekday", "hour": "3", "num_occupied": "2550", "num_tot": "44644", "occupied_ratio": "0.05711853776543320491"}
-{"region": "touristic", "weektime": "weekday", "hour": "4", "num_occupied": "2418", "num_tot": "42596", "occupied_ratio": "0.05676589351112780543"}
-{"region": "touristic", "weektime": "weekday", "hour": "5", "num_occupied": "2552", "num_tot": "44970", "occupied_ratio": "0.05674894374027129197"}
-{"region": "touristic", "weektime": "weekday", "hour": "6", "num_occupied": "2220", "num_tot": "39818", "occupied_ratio": "0.05575367924054447737"}
-{"region": "touristic", "weektime": "weekday", "hour": "7", "num_occupied": "2484", "num_tot": "44872", "occupied_ratio": "0.05535746122303440899"}
-{"region": "touristic", "weektime": "weekday", "hour": "8", "num_occupied": "2549", "num_tot": "43579", "occupied_ratio": "0.05849147525184148328"}
-{"region": "touristic", "weektime": "weekday", "hour": "9", "num_occupied": "2660", "num_tot": "44760", "occupied_ratio": "0.05942806076854334227"}
-{"region": "touristic", "weektime": "weekday", "hour": "10", "num_occupied": "2715", "num_tot": "44892", "occupied_ratio": "0.06047848168938786421"}
-{"region": "touristic", "weektime": "weekday", "hour": "11", "num_occupied": "3264", "num_tot": "44847", "occupied_ratio": "0.07278078801257609205"}
-{"region": "touristic", "weektime": "weekday", "hour": "12", "num_occupied": "3373", "num_tot": "44865", "occupied_ratio": "0.07518109885211189123"}
-{"region": "touristic", "weektime": "weekday", "hour": "13", "num_occupied": "3260", "num_tot": "44897", "occupied_ratio": "0.07261064213644564225"}
-{"region": "touristic", "weektime": "weekday", "hour": "14", "num_occupied": "3352", "num_tot": "43654", "occupied_ratio": "0.07678563247354194346"}
-{"region": "touristic", "weektime": "weekday", "hour": "15", "num_occupied": "3561", "num_tot": "44738", "occupied_ratio": "0.07959676337788904287"}
-{"region": "touristic", "weektime": "weekday", "hour": "16", "num_occupied": "3207", "num_tot": "44221", "occupied_ratio": "0.07252210488229574184"}
-{"region": "touristic", "weektime": "weekday", "hour": "17", "num_occupied": "3323", "num_tot": "45288", "occupied_ratio": "0.07337484543366896308"}
-{"region": "touristic", "weektime": "weekday", "hour": "18", "num_occupied": "2851", "num_tot": "41619", "occupied_ratio": "0.06850236670751339532"}
-{"region": "touristic", "weektime": "weekday", "hour": "19", "num_occupied": "3180", "num_tot": "46810", "occupied_ratio": "0.06793420209356975005"}
-{"region": "touristic", "weektime": "weekday", "hour": "20", "num_occupied": "3181", "num_tot": "45571", "occupied_ratio": "0.06980316429308112615"}
-{"region": "touristic", "weektime": "weekday", "hour": "21", "num_occupied": "2936", "num_tot": "46569", "occupied_ratio": "0.06304623247224548519"}
-{"region": "touristic", "weektime": "weekday", "hour": "22", "num_occupied": "2385", "num_tot": "45174", "occupied_ratio": "0.05279585602337627839"}
-{"region": "touristic", "weektime": "weekday", "hour": "23", "num_occupied": "2319", "num_tot": "45180", "occupied_ratio": "0.05132802124833997344"}
-{"region": "touristic", "weektime": "weekend", "hour": "0", "num_occupied": "12728", "num_tot": "263793", "occupied_ratio": "0.04824995356207329232"}
-{"region": "touristic", "weektime": "weekend", "hour": "1", "num_occupied": "12633", "num_tot": "263136", "occupied_ratio": "0.04800939438161255016"}
-{"region": "touristic", "weektime": "weekend", "hour": "2", "num_occupied": "12479", "num_tot": "254855", "occupied_ratio": "0.04896509780071020777"}
-{"region": "touristic", "weektime": "weekend", "hour": "3", "num_occupied": "12390", "num_tot": "261682", "occupied_ratio": "0.04734754396557653946"}
-{"region": "touristic", "weektime": "weekend", "hour": "4", "num_occupied": "12130", "num_tot": "255107", "occupied_ratio": "0.04754867565374529119"}
-{"region": "touristic", "weektime": "weekend", "hour": "5", "num_occupied": "12488", "num_tot": "265912", "occupied_ratio": "0.04696290502121002437"}
-{"region": "touristic", "weektime": "weekend", "hour": "6", "num_occupied": "11238", "num_tot": "237277", "occupied_ratio": "0.04736236550529549851"}
-{"region": "touristic", "weektime": "weekend", "hour": "7", "num_occupied": "12986", "num_tot": "265423", "occupied_ratio": "0.04892567712669964547"}
-{"region": "touristic", "weektime": "weekend", "hour": "8", "num_occupied": "14034", "num_tot": "261975", "occupied_ratio": "0.05356999713713140567"}
-{"region": "touristic", "weektime": "weekend", "hour": "9", "num_occupied": "14250", "num_tot": "271709", "occupied_ratio": "0.05244581519198848768"}
-{"region": "touristic", "weektime": "weekend", "hour": "10", "num_occupied": "15065", "num_tot": "268483", "occupied_ratio": "0.05611156013602350987"}
-{"region": "touristic", "weektime": "weekend", "hour": "11", "num_occupied": "16039", "num_tot": "269141", "occupied_ratio": "0.05959329867987411803"}
-{"region": "touristic", "weektime": "weekend", "hour": "12", "num_occupied": "16459", "num_tot": "273504", "occupied_ratio": "0.06017827892827892828"}
-{"region": "touristic", "weektime": "weekend", "hour": "13", "num_occupied": "17102", "num_tot": "276040", "occupied_ratio": "0.06195478916099116070"}
-{"region": "touristic", "weektime": "weekend", "hour": "14", "num_occupied": "17805", "num_tot": "267590", "occupied_ratio": "0.06653836092529616204"}
-{"region": "touristic", "weektime": "weekend", "hour": "15", "num_occupied": "17535", "num_tot": "268265", "occupied_ratio": "0.06536447169776154176"}
-{"region": "touristic", "weektime": "weekend", "hour": "16", "num_occupied": "17582", "num_tot": "265016", "occupied_ratio": "0.06634316418631327920"}
-{"region": "touristic", "weektime": "weekend", "hour": "17", "num_occupied": "16984", "num_tot": "270814", "occupied_ratio": "0.06271463070594577828"}
-{"region": "touristic", "weektime": "weekend", "hour": "18", "num_occupied": "15426", "num_tot": "243437", "occupied_ratio": "0.06336752424651963342"}
-{"region": "touristic", "weektime": "weekend", "hour": "19", "num_occupied": "16176", "num_tot": "269557", "occupied_ratio": "0.06000957125951097542"}
-{"region": "touristic", "weektime": "weekend", "hour": "20", "num_occupied": "15267", "num_tot": "261539", "occupied_ratio": "0.05837370334825781241"}
-{"region": "touristic", "weektime": "weekend", "hour": "21", "num_occupied": "14634", "num_tot": "267262", "occupied_ratio": "0.05475525888454026386"}
-{"region": "touristic", "weektime": "weekend", "hour": "22", "num_occupied": "13810", "num_tot": "266272", "occupied_ratio": "0.05186425910347314025"}
-{"region": "touristic", "weektime": "weekend", "hour": "23", "num_occupied": "13342", "num_tot": "263409", "occupied_ratio": "0.05065126855954048647"}
+{
+    "0": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 7896,
+        "num_tot": 178635,
+        "occupied_ratio": 0.0442018641
+    },
+    "1": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 7727,
+        "num_tot": 178726,
+        "occupied_ratio": 0.0432337768
+    },
+    "2": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 7488,
+        "num_tot": 176339,
+        "occupied_ratio": 0.0424636637
+    },
+    "3": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 7456,
+        "num_tot": 176195,
+        "occupied_ratio": 0.0423167513
+    },
+    "4": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 7267,
+        "num_tot": 171287,
+        "occupied_ratio": 0.04242587
+    },
+    "5": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 7302,
+        "num_tot": 174042,
+        "occupied_ratio": 0.0419553901
+    },
+    "6": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 7087,
+        "num_tot": 171436,
+        "occupied_ratio": 0.041339042
+    },
+    "7": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 7392,
+        "num_tot": 176585,
+        "occupied_ratio": 0.0418608602
+    },
+    "8": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 7711,
+        "num_tot": 174161,
+        "occupied_ratio": 0.0442751247
+    },
+    "9": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 8733,
+        "num_tot": 176619,
+        "occupied_ratio": 0.0494454164
+    },
+    "10": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 9889,
+        "num_tot": 176556,
+        "occupied_ratio": 0.0560105576
+    },
+    "11": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 10862,
+        "num_tot": 176535,
+        "occupied_ratio": 0.0615288753
+    },
+    "12": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 10785,
+        "num_tot": 176120,
+        "occupied_ratio": 0.0612366568
+    },
+    "13": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 11134,
+        "num_tot": 176260,
+        "occupied_ratio": 0.0631680472
+    },
+    "14": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 11289,
+        "num_tot": 174233,
+        "occupied_ratio": 0.0647925479
+    },
+    "15": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 11214,
+        "num_tot": 176604,
+        "occupied_ratio": 0.0634979955
+    },
+    "16": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 10667,
+        "num_tot": 173312,
+        "occupied_ratio": 0.0615479597
+    },
+    "17": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 10835,
+        "num_tot": 179757,
+        "occupied_ratio": 0.0602758168
+    },
+    "18": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 10281,
+        "num_tot": 181173,
+        "occupied_ratio": 0.0567468663
+    },
+    "19": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 10693,
+        "num_tot": 186455,
+        "occupied_ratio": 0.0573489582
+    },
+    "20": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 10729,
+        "num_tot": 184166,
+        "occupied_ratio": 0.0582572245
+    },
+    "21": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 10454,
+        "num_tot": 185325,
+        "occupied_ratio": 0.0564090112
+    },
+    "22": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 9340,
+        "num_tot": 179214,
+        "occupied_ratio": 0.0521164641
+    },
+    "23": {
+        "region": "city centers",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 9027,
+        "num_tot": 179265,
+        "occupied_ratio": 0.0503556188
+    },
+    "24": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 45375,
+        "num_tot": 1041178,
+        "occupied_ratio": 0.0435804445
+    },
+    "25": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 44295,
+        "num_tot": 1040221,
+        "occupied_ratio": 0.0425822974
+    },
+    "26": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 42967,
+        "num_tot": 1023216,
+        "occupied_ratio": 0.0419921111
+    },
+    "27": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 43386,
+        "num_tot": 1031860,
+        "occupied_ratio": 0.0420464016
+    },
+    "28": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 42707,
+        "num_tot": 1024467,
+        "occupied_ratio": 0.0416870431
+    },
+    "29": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 43055,
+        "num_tot": 1030486,
+        "occupied_ratio": 0.0417812566
+    },
+    "30": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 44577,
+        "num_tot": 1015242,
+        "occupied_ratio": 0.043907758
+    },
+    "31": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 52171,
+        "num_tot": 1047165,
+        "occupied_ratio": 0.0498211839
+    },
+    "32": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 57445,
+        "num_tot": 1048881,
+        "occupied_ratio": 0.0547678907
+    },
+    "33": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 65796,
+        "num_tot": 1074115,
+        "occupied_ratio": 0.0612560108
+    },
+    "34": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 67882,
+        "num_tot": 1059853,
+        "occupied_ratio": 0.0640485048
+    },
+    "35": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 70792,
+        "num_tot": 1061864,
+        "occupied_ratio": 0.0666676712
+    },
+    "36": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 72924,
+        "num_tot": 1079643,
+        "occupied_ratio": 0.0675445494
+    },
+    "37": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 72315,
+        "num_tot": 1087376,
+        "occupied_ratio": 0.0665041347
+    },
+    "38": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 70367,
+        "num_tot": 1072842,
+        "occupied_ratio": 0.0655893412
+    },
+    "39": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 69194,
+        "num_tot": 1059236,
+        "occupied_ratio": 0.0653244414
+    },
+    "40": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 65813,
+        "num_tot": 1038471,
+        "occupied_ratio": 0.0633749041
+    },
+    "41": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 64625,
+        "num_tot": 1070794,
+        "occupied_ratio": 0.0603524114
+    },
+    "42": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 60927,
+        "num_tot": 1045555,
+        "occupied_ratio": 0.0582724008
+    },
+    "43": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 61765,
+        "num_tot": 1065384,
+        "occupied_ratio": 0.0579744017
+    },
+    "44": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 58374,
+        "num_tot": 1049105,
+        "occupied_ratio": 0.0556417137
+    },
+    "45": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 55301,
+        "num_tot": 1054478,
+        "occupied_ratio": 0.0524439581
+    },
+    "46": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 50925,
+        "num_tot": 1050761,
+        "occupied_ratio": 0.0484648745
+    },
+    "47": {
+        "region": "city centers",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 47458,
+        "num_tot": 1039575,
+        "occupied_ratio": 0.0456513479
+    },
+    "48": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 6945,
+        "num_tot": 146496,
+        "occupied_ratio": 0.0474074377
+    },
+    "49": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 6861,
+        "num_tot": 146517,
+        "occupied_ratio": 0.0468273306
+    },
+    "50": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 6726,
+        "num_tot": 142836,
+        "occupied_ratio": 0.0470889692
+    },
+    "51": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 6684,
+        "num_tot": 144204,
+        "occupied_ratio": 0.0463510027
+    },
+    "52": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 6518,
+        "num_tot": 138876,
+        "occupied_ratio": 0.0469339555
+    },
+    "53": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 6657,
+        "num_tot": 143985,
+        "occupied_ratio": 0.0462339827
+    },
+    "54": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 6624,
+        "num_tot": 137943,
+        "occupied_ratio": 0.0480198343
+    },
+    "55": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 6597,
+        "num_tot": 144870,
+        "occupied_ratio": 0.0455373783
+    },
+    "56": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 6615,
+        "num_tot": 141909,
+        "occupied_ratio": 0.0466143796
+    },
+    "57": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 6948,
+        "num_tot": 145440,
+        "occupied_ratio": 0.0477722772
+    },
+    "58": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 7061,
+        "num_tot": 145281,
+        "occupied_ratio": 0.0486023637
+    },
+    "59": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 7244,
+        "num_tot": 145326,
+        "occupied_ratio": 0.0498465519
+    },
+    "60": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 7662,
+        "num_tot": 145548,
+        "occupied_ratio": 0.0526424272
+    },
+    "61": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 7636,
+        "num_tot": 145668,
+        "occupied_ratio": 0.0524205728
+    },
+    "62": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 7091,
+        "num_tot": 142146,
+        "occupied_ratio": 0.0498853292
+    },
+    "63": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 7194,
+        "num_tot": 145206,
+        "occupied_ratio": 0.0495434073
+    },
+    "64": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 7335,
+        "num_tot": 141845,
+        "occupied_ratio": 0.0517113751
+    },
+    "65": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 7772,
+        "num_tot": 146931,
+        "occupied_ratio": 0.0528955768
+    },
+    "66": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 8035,
+        "num_tot": 145464,
+        "occupied_ratio": 0.0552370346
+    },
+    "67": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 7930,
+        "num_tot": 152322,
+        "occupied_ratio": 0.052060766
+    },
+    "68": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 7788,
+        "num_tot": 149193,
+        "occupied_ratio": 0.0522008405
+    },
+    "69": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 7670,
+        "num_tot": 151705,
+        "occupied_ratio": 0.05055865
+    },
+    "70": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 6709,
+        "num_tot": 146241,
+        "occupied_ratio": 0.0458763274
+    },
+    "71": {
+        "region": "country side",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 6527,
+        "num_tot": 146262,
+        "occupied_ratio": 0.0446253983
+    },
+    "72": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 38872,
+        "num_tot": 854458,
+        "occupied_ratio": 0.0454931664
+    },
+    "73": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 38824,
+        "num_tot": 853420,
+        "occupied_ratio": 0.0454922547
+    },
+    "74": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 38267,
+        "num_tot": 829928,
+        "occupied_ratio": 0.0461088191
+    },
+    "75": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 37696,
+        "num_tot": 846665,
+        "occupied_ratio": 0.0445229223
+    },
+    "76": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 38049,
+        "num_tot": 834406,
+        "occupied_ratio": 0.0456001035
+    },
+    "77": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 37955,
+        "num_tot": 854344,
+        "occupied_ratio": 0.0444258987
+    },
+    "78": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 39574,
+        "num_tot": 819278,
+        "occupied_ratio": 0.0483035063
+    },
+    "79": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 45166,
+        "num_tot": 860748,
+        "occupied_ratio": 0.0524729654
+    },
+    "80": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 50288,
+        "num_tot": 855303,
+        "occupied_ratio": 0.058795538
+    },
+    "81": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 51780,
+        "num_tot": 885185,
+        "occupied_ratio": 0.0584962465
+    },
+    "82": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 51074,
+        "num_tot": 873078,
+        "occupied_ratio": 0.0584987825
+    },
+    "83": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 51850,
+        "num_tot": 874495,
+        "occupied_ratio": 0.0592913624
+    },
+    "84": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 50539,
+        "num_tot": 890863,
+        "occupied_ratio": 0.0567303839
+    },
+    "85": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 51917,
+        "num_tot": 898006,
+        "occupied_ratio": 0.0578136449
+    },
+    "86": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 52241,
+        "num_tot": 875213,
+        "occupied_ratio": 0.0596894699
+    },
+    "87": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 52137,
+        "num_tot": 873392,
+        "occupied_ratio": 0.0596948449
+    },
+    "88": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 49693,
+        "num_tot": 852605,
+        "occupied_ratio": 0.0582837304
+    },
+    "89": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 47022,
+        "num_tot": 877383,
+        "occupied_ratio": 0.0535934706
+    },
+    "90": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 44297,
+        "num_tot": 842803,
+        "occupied_ratio": 0.052559139
+    },
+    "91": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 43155,
+        "num_tot": 873814,
+        "occupied_ratio": 0.0493869405
+    },
+    "92": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 42440,
+        "num_tot": 852285,
+        "occupied_ratio": 0.0497955496
+    },
+    "93": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 41067,
+        "num_tot": 865869,
+        "occupied_ratio": 0.0474286526
+    },
+    "94": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 40448,
+        "num_tot": 862778,
+        "occupied_ratio": 0.0468811212
+    },
+    "95": {
+        "region": "country side",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 39468,
+        "num_tot": 853076,
+        "occupied_ratio": 0.0462655144
+    },
+    "96": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 14377,
+        "num_tot": 456112,
+        "occupied_ratio": 0.0315207668
+    },
+    "97": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 14115,
+        "num_tot": 456168,
+        "occupied_ratio": 0.0309425475
+    },
+    "98": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 13370,
+        "num_tot": 446374,
+        "occupied_ratio": 0.0299524614
+    },
+    "99": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 13633,
+        "num_tot": 447954,
+        "occupied_ratio": 0.0304339285
+    },
+    "100": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 13270,
+        "num_tot": 431751,
+        "occupied_ratio": 0.0307353081
+    },
+    "101": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 13592,
+        "num_tot": 447199,
+        "occupied_ratio": 0.0303936279
+    },
+    "102": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 13419,
+        "num_tot": 431833,
+        "occupied_ratio": 0.0310745126
+    },
+    "103": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 14211,
+        "num_tot": 447826,
+        "occupied_ratio": 0.0317333071
+    },
+    "104": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 14312,
+        "num_tot": 439598,
+        "occupied_ratio": 0.032557018
+    },
+    "105": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 15905,
+        "num_tot": 449370,
+        "occupied_ratio": 0.035393996
+    },
+    "106": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 16840,
+        "num_tot": 449443,
+        "occupied_ratio": 0.0374686
+    },
+    "107": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 17395,
+        "num_tot": 449590,
+        "occupied_ratio": 0.0386908072
+    },
+    "108": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 18306,
+        "num_tot": 449385,
+        "occupied_ratio": 0.0407356721
+    },
+    "109": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 18325,
+        "num_tot": 449029,
+        "occupied_ratio": 0.0408102817
+    },
+    "110": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 17719,
+        "num_tot": 439666,
+        "occupied_ratio": 0.0403010467
+    },
+    "111": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 17897,
+        "num_tot": 447185,
+        "occupied_ratio": 0.0400214676
+    },
+    "112": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 17148,
+        "num_tot": 434956,
+        "occupied_ratio": 0.0394246774
+    },
+    "113": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 17810,
+        "num_tot": 456575,
+        "occupied_ratio": 0.03900783
+    },
+    "114": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 18157,
+        "num_tot": 458617,
+        "occupied_ratio": 0.0395907696
+    },
+    "115": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 18920,
+        "num_tot": 475183,
+        "occupied_ratio": 0.0398162392
+    },
+    "116": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 17559,
+        "num_tot": 466153,
+        "occupied_ratio": 0.0376678902
+    },
+    "117": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 16776,
+        "num_tot": 472314,
+        "occupied_ratio": 0.0355187439
+    },
+    "118": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 15076,
+        "num_tot": 455057,
+        "occupied_ratio": 0.0331299156
+    },
+    "119": {
+        "region": "rest",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 14233,
+        "num_tot": 455148,
+        "occupied_ratio": 0.031271147
+    },
+    "120": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 79364,
+        "num_tot": 2661727,
+        "occupied_ratio": 0.0298167318
+    },
+    "121": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 78369,
+        "num_tot": 2660082,
+        "occupied_ratio": 0.0294611219
+    },
+    "122": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 74386,
+        "num_tot": 2595893,
+        "occupied_ratio": 0.0286552643
+    },
+    "123": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 76687,
+        "num_tot": 2636579,
+        "occupied_ratio": 0.0290857964
+    },
+    "124": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 75939,
+        "num_tot": 2602970,
+        "occupied_ratio": 0.029173982
+    },
+    "125": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 77272,
+        "num_tot": 2661117,
+        "occupied_ratio": 0.0290374305
+    },
+    "126": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 81611,
+        "num_tot": 2572238,
+        "occupied_ratio": 0.031727624
+    },
+    "127": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 92104,
+        "num_tot": 2669367,
+        "occupied_ratio": 0.0345040603
+    },
+    "128": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 102692,
+        "num_tot": 2659919,
+        "occupied_ratio": 0.0386071907
+    },
+    "129": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 114730,
+        "num_tot": 2746001,
+        "occupied_ratio": 0.0417807568
+    },
+    "130": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 116329,
+        "num_tot": 2709803,
+        "occupied_ratio": 0.0429289509
+    },
+    "131": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 119657,
+        "num_tot": 2715194,
+        "occupied_ratio": 0.0440694109
+    },
+    "132": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 122178,
+        "num_tot": 2761903,
+        "occupied_ratio": 0.0442368903
+    },
+    "133": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 124722,
+        "num_tot": 2782655,
+        "occupied_ratio": 0.0448212229
+    },
+    "134": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 121261,
+        "num_tot": 2718594,
+        "occupied_ratio": 0.0446043065
+    },
+    "135": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 119527,
+        "num_tot": 2698318,
+        "occupied_ratio": 0.0442968546
+    },
+    "136": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 115147,
+        "num_tot": 2625058,
+        "occupied_ratio": 0.0438645546
+    },
+    "137": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 113148,
+        "num_tot": 2736022,
+        "occupied_ratio": 0.0413549306
+    },
+    "138": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 103631,
+        "num_tot": 2655115,
+        "occupied_ratio": 0.0390307011
+    },
+    "139": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 100843,
+        "num_tot": 2726062,
+        "occupied_ratio": 0.0369921887
+    },
+    "140": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 93165,
+        "num_tot": 2663588,
+        "occupied_ratio": 0.0349772562
+    },
+    "141": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 89865,
+        "num_tot": 2697409,
+        "occupied_ratio": 0.0333153037
+    },
+    "142": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 85083,
+        "num_tot": 2689167,
+        "occupied_ratio": 0.0316391656
+    },
+    "143": {
+        "region": "rest",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 81250,
+        "num_tot": 2659069,
+        "occupied_ratio": 0.0305558073
+    },
+    "144": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 0,
+        "num_occupied": 2694,
+        "num_tot": 45384,
+        "occupied_ratio": 0.0593601269
+    },
+    "145": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 1,
+        "num_occupied": 2634,
+        "num_tot": 45293,
+        "occupied_ratio": 0.0581546817
+    },
+    "146": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 2,
+        "num_occupied": 2617,
+        "num_tot": 44116,
+        "occupied_ratio": 0.0593208813
+    },
+    "147": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 3,
+        "num_occupied": 2550,
+        "num_tot": 44644,
+        "occupied_ratio": 0.0571185378
+    },
+    "148": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 4,
+        "num_occupied": 2418,
+        "num_tot": 42596,
+        "occupied_ratio": 0.0567658935
+    },
+    "149": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 5,
+        "num_occupied": 2552,
+        "num_tot": 44970,
+        "occupied_ratio": 0.0567489437
+    },
+    "150": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 6,
+        "num_occupied": 2220,
+        "num_tot": 39818,
+        "occupied_ratio": 0.0557536792
+    },
+    "151": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 7,
+        "num_occupied": 2484,
+        "num_tot": 44872,
+        "occupied_ratio": 0.0553574612
+    },
+    "152": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 8,
+        "num_occupied": 2549,
+        "num_tot": 43579,
+        "occupied_ratio": 0.0584914753
+    },
+    "153": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 9,
+        "num_occupied": 2660,
+        "num_tot": 44760,
+        "occupied_ratio": 0.0594280608
+    },
+    "154": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 10,
+        "num_occupied": 2715,
+        "num_tot": 44892,
+        "occupied_ratio": 0.0604784817
+    },
+    "155": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 11,
+        "num_occupied": 3264,
+        "num_tot": 44847,
+        "occupied_ratio": 0.072780788
+    },
+    "156": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 12,
+        "num_occupied": 3373,
+        "num_tot": 44865,
+        "occupied_ratio": 0.0751810989
+    },
+    "157": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 13,
+        "num_occupied": 3260,
+        "num_tot": 44897,
+        "occupied_ratio": 0.0726106421
+    },
+    "158": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 14,
+        "num_occupied": 3352,
+        "num_tot": 43654,
+        "occupied_ratio": 0.0767856325
+    },
+    "159": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 15,
+        "num_occupied": 3561,
+        "num_tot": 44738,
+        "occupied_ratio": 0.0795967634
+    },
+    "160": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 16,
+        "num_occupied": 3207,
+        "num_tot": 44221,
+        "occupied_ratio": 0.0725221049
+    },
+    "161": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 17,
+        "num_occupied": 3323,
+        "num_tot": 45288,
+        "occupied_ratio": 0.0733748454
+    },
+    "162": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 18,
+        "num_occupied": 2851,
+        "num_tot": 41619,
+        "occupied_ratio": 0.0685023667
+    },
+    "163": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 19,
+        "num_occupied": 3180,
+        "num_tot": 46810,
+        "occupied_ratio": 0.0679342021
+    },
+    "164": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 20,
+        "num_occupied": 3181,
+        "num_tot": 45571,
+        "occupied_ratio": 0.0698031643
+    },
+    "165": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 21,
+        "num_occupied": 2936,
+        "num_tot": 46569,
+        "occupied_ratio": 0.0630462325
+    },
+    "166": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 22,
+        "num_occupied": 2385,
+        "num_tot": 45174,
+        "occupied_ratio": 0.052795856
+    },
+    "167": {
+        "region": "touristic",
+        "weektime": "weekday",
+        "hour": 23,
+        "num_occupied": 2319,
+        "num_tot": 45180,
+        "occupied_ratio": 0.0513280212
+    },
+    "168": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 0,
+        "num_occupied": 12728,
+        "num_tot": 263793,
+        "occupied_ratio": 0.0482499536
+    },
+    "169": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 1,
+        "num_occupied": 12633,
+        "num_tot": 263136,
+        "occupied_ratio": 0.0480093944
+    },
+    "170": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 2,
+        "num_occupied": 12479,
+        "num_tot": 254855,
+        "occupied_ratio": 0.0489650978
+    },
+    "171": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 3,
+        "num_occupied": 12390,
+        "num_tot": 261682,
+        "occupied_ratio": 0.047347544
+    },
+    "172": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 4,
+        "num_occupied": 12130,
+        "num_tot": 255107,
+        "occupied_ratio": 0.0475486757
+    },
+    "173": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 5,
+        "num_occupied": 12488,
+        "num_tot": 265912,
+        "occupied_ratio": 0.046962905
+    },
+    "174": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 6,
+        "num_occupied": 11238,
+        "num_tot": 237277,
+        "occupied_ratio": 0.0473623655
+    },
+    "175": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 7,
+        "num_occupied": 12986,
+        "num_tot": 265423,
+        "occupied_ratio": 0.0489256771
+    },
+    "176": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 8,
+        "num_occupied": 14034,
+        "num_tot": 261975,
+        "occupied_ratio": 0.0535699971
+    },
+    "177": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 9,
+        "num_occupied": 14250,
+        "num_tot": 271709,
+        "occupied_ratio": 0.0524458152
+    },
+    "178": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 10,
+        "num_occupied": 15065,
+        "num_tot": 268483,
+        "occupied_ratio": 0.0561115601
+    },
+    "179": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 11,
+        "num_occupied": 16039,
+        "num_tot": 269141,
+        "occupied_ratio": 0.0595932987
+    },
+    "180": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 12,
+        "num_occupied": 16459,
+        "num_tot": 273504,
+        "occupied_ratio": 0.0601782789
+    },
+    "181": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 13,
+        "num_occupied": 17102,
+        "num_tot": 276040,
+        "occupied_ratio": 0.0619547892
+    },
+    "182": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 14,
+        "num_occupied": 17805,
+        "num_tot": 267590,
+        "occupied_ratio": 0.0665383609
+    },
+    "183": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 15,
+        "num_occupied": 17535,
+        "num_tot": 268265,
+        "occupied_ratio": 0.0653644717
+    },
+    "184": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 16,
+        "num_occupied": 17582,
+        "num_tot": 265016,
+        "occupied_ratio": 0.0663431642
+    },
+    "185": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 17,
+        "num_occupied": 16984,
+        "num_tot": 270814,
+        "occupied_ratio": 0.0627146307
+    },
+    "186": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 18,
+        "num_occupied": 15426,
+        "num_tot": 243437,
+        "occupied_ratio": 0.0633675242
+    },
+    "187": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 19,
+        "num_occupied": 16176,
+        "num_tot": 269557,
+        "occupied_ratio": 0.0600095713
+    },
+    "188": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 20,
+        "num_occupied": 15267,
+        "num_tot": 261539,
+        "occupied_ratio": 0.0583737033
+    },
+    "189": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 21,
+        "num_occupied": 14634,
+        "num_tot": 267262,
+        "occupied_ratio": 0.0547552589
+    },
+    "190": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 22,
+        "num_occupied": 13810,
+        "num_tot": 266272,
+        "occupied_ratio": 0.0518642591
+    },
+    "191": {
+        "region": "touristic",
+        "weektime": "weekend",
+        "hour": 23,
+        "num_occupied": 13342,
+        "num_tot": 263409,
+        "occupied_ratio": 0.0506512686
+    }
+}

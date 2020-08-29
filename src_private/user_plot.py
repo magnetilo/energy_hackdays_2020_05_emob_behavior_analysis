@@ -5,6 +5,10 @@ import pandas as pd
 import plotly.graph_objects as go
 
 
+def get_private_ids(df):
+    """Get all the unique connectors"""
+    return df['chargepoint_connector'].unique().tolist()
+
 def id_subset(my_customer, df):
     """Filter dataframe on 1 single id"""
     sub_df = df[df['chargepoint_connector'] == my_customer].copy()
