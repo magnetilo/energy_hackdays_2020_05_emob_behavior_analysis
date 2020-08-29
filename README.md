@@ -67,14 +67,23 @@ Features analysis:
 
 
 Legend:
+
 1 | Grosszentren
+
 2 | Nebenzentren der Grosszentren
+
 3 | Gürtel der Grosszentren
+
 4 | Mittelzentren
+
 5 | Gürtel der Mittelzentren
+
 6 | Kleinzentren
+
 7 | Periurbane ländliche Gemeinden
+
 8 | Agrargemeinden
+
 9 | Touristische Gemeinden
 
 
