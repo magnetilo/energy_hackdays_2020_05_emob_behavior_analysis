@@ -12,10 +12,11 @@
 - high occupation on high population density
 
 ### private ev charging station
-different charging patterns of private customers:
+Different charging patterns of private customers:
 - Chargning needs
 - Hours of charging
 - Week days of chargning
+This provide good hints for a further automated customer segmentation.
 
 ### comparison of privat & public charging behavior
 - different time-profile on weekdays and weekend in public, but not in private
