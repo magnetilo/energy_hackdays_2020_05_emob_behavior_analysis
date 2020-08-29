@@ -9,7 +9,7 @@
 
       <v-col class="mb-5" cols="12">
         <v-card elevation="5">
-          <v-card-title>Snapshot</v-card-title>
+          <v-card-title>Occupational Ratio</v-card-title>
           <v-card-text>
             <Plotly
               :data="datapoints"
