@@ -13,7 +13,7 @@
 
 ### private ev charging station
 Different charging patterns of private customers:
-- Chargning needs
+- Charging needs
 - Hours of charging
 - Week days of charging
 
@@ -21,12 +21,23 @@ This provide good hints for a further automated customer segmentation.
 
 ### comparison of privat & public charging behavior
 - different time-profile on weekdays and weekend in public, but not in private
-- 
+
+## possible next steps
+
+### public ev charging station
+- occupation forecast for every charging station (hourly based day profile integrated on the website ich-tanke-strom.ch ) --> for the customers
+- clustering with more location-based data (socio-economic, roads, traffic etc.) --> understanding of different charging patterns
+- compare clusters of charging behavior with pv potential and production profiles --> own consumption of charging stations
+
+### private ev charging station
+- automated customer segmentation based on linked information (building data, socio-economoic data, location) --> for the provider
+- cost estimation tool for customer --> for the customer
+- prediction of behavior changes for the load-curve --> for the grid
+
 
 ## faced challenges
 - parsing and structuring provided raw data --> long running tasks
 - handling data errors and missing data
-...
 
 ## things to do
 - run everything on database server
@@ -39,11 +50,6 @@ This provide good hints for a further automated customer segmentation.
 
 ![Overview](/data_engineering_diemo/data_eng_architecture.png)
 data_engineering_diemo/data_eng_architecture.png
-
-### Data Sources
-- [EKZ-Repo](https://github.com/aselviar/e-mob_analysis)
-- [Municipality Typologies](http://data.geo.admin.ch/ch.are.gemeindetypen/data.zip)
-- [Population Hectar](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/bevoelkerung-haushalte-ab-2010.html)
 
 ### Data Structure of diemo jsons
 

@@ -1,5 +1,8 @@
 """Coputation and plots for the whole population analysis"""
 
+import numpy as np
+import pandas as pd
+
 from src_private.config import COVID_END, COVID_START
 
 # Total comsumption
@@ -205,9 +208,10 @@ def classify_charge(df):
     return df
 
 
-def charge_type_v_cid(df,scale=True):
+def charge_type_v_cid(df,scale=False):
     '''plot charge type vs chargepoint_connector id in stacked bar plot'''
     df = classify_charge(df)
+
     xax=df.chargepoint_connector.dropna().unique()
     nlo=np.array([len(df.query("kWh_type == 'low' and chargepoint_connector == @h")) for h in xax])
     nmid=np.array([len(df.query("kWh_type == 'mid' and chargepoint_connector == @h")) for h in xax])
@@ -218,3 +222,42 @@ def charge_type_v_cid(df,scale=True):
         fac=nlo+nmid+nhi+nex
     else:
         fac=1.
+
+    data = [
+        {
+        'x':xax,
+        'y': nlo,
+        'type': 'bar',
+        'name':'low'
+    },
+    {
+        'x':xax,
+        'y': nmid,
+        'type': 'bar',
+        'name':'middle'
+    },
+    {
+        'x':xax,
+        'y': nhi,
+        'type': 'bar',
+        'name':'high'
+    },
+    {
+        'x':xax,
+        'y': nex,
+        'type': 'bar',
+        'name':'extrem'
+    },]
+    
+    layout = {
+        'title':'Hour distribution of the of the charging process for the whole private population',
+        'barmode': 'stack',
+        'xaxis': {
+            'title': 'Charge point'
+        },
+        'yaxis': {
+            'title': 'Nb of charging processes'
+        }
+    }
+    
+    return {'data': data, 'layout': layout}
