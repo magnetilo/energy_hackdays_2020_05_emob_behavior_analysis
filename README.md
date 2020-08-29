@@ -1,14 +1,23 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 
 ## findings
-- highest occupied ratio of public charging stations in big centers and peri-urban rural communes
+
+### public ev charging station
+
+- Typology of municipalities is an important feature for occupied ratio
+- highest occupied ratio in big centers and peri-urban rural communes
+- low population density: many stations and comparibaly high occupation
+- with higher population density we have fewer amount of stations
+- minimum occupied ratio on 50 pers/ha population density
+- high occupation on high population density
+
+### private ev charging station
 - different charging patterns of private customers 
 
 ## faced challenges
 - parsing and structuring provided raw data --> long running tasks
 - handling data errors
 ...
-
 
 ## things to do
 - run everything on database server
