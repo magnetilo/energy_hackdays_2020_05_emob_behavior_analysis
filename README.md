@@ -53,3 +53,9 @@ The first query is about getting an overlook over all the EV-Charging points, th
 - aggregated occupation over time of a day/week for all stations
 - occupation over time of a day/week for a selected station
 - typically duration of a charging process on a map
+
+
+## Analyses
+
+### Charging points utilization
+![Overview(/public_metrics_features_analysis/ExtraTreesRegressor.png)
