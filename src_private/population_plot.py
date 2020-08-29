@@ -142,3 +142,42 @@ def median_load_energy_plt(load_curve_df):
     }
     
     return {'data': data, 'layout': layout}
+
+
+
+def plot_hourly_consumption(df):
+    weekend = df[df['is_weekend']]
+    week = df[~df['is_weekend']]
+    
+
+    x_data_1 = weekend[['chargepoint_connector_log', 'charge_start']].drop_duplicates(
+            keep='first')['charge_start'].apply(lambda x: x.hour)
+
+    x_data_2 = week[['chargepoint_connector_log', 'charge_start']].drop_duplicates(
+            keep='first')['charge_start'].apply(lambda x: x.hour)
+
+    data = [
+        {
+        'x':x_data_1.tolist(),
+        'type': 'histogram',
+        'xbins': {'size': 1},
+        'name':'weekend'
+    },
+    {
+        'x':x_data_2.tolist(),
+        'type': 'histogram',
+        'xbins': {'size': 1},
+        'name':'weekdays'
+    }]
+    
+    layout = {
+        'title':'Hour distribution of the of the charging process for the whole private population',
+        'xaxis': {
+            'title': 'kWh/charge'
+        },
+        'yaxis': {
+            'title': 'Nb of charging processes'
+        }
+    }
+    
+    return {'data': data, 'layout': layout}
