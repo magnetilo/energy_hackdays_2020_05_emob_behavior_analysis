@@ -1,10 +1,65 @@
-{"municipal_typologie_id": "municipal_typologie_id", "municipal_typologie": "municipal_typologie", "num_occupied": "num_occupied", "num_tot": "num_tot", "occupied_ratio": "occupied_ratio"}
-{"municipal_typologie_id": "8", ".": "Agrargemeinden", "num_occupied": "131174", "num_tot": "6917580", "occupied_ratio": "0.01896241171045365576"}
-{"municipal_typologie_id": "1", "municipal_typologie": "Grosszentren", "num_occupied": "989475", "num_tot": "16648647", "occupied_ratio": "0.05943275750876332473"}
-{"municipal_typologie_id": "3", "municipal_typologie": "G\u00fcrtel der Grosszentren", "num_occupied": "836800", "num_tot": "19712930", "occupied_ratio": "0.04244929596970110481"}
-{"municipal_typologie_id": "5", "municipal_typologie": "G\u00fcrtel der Mittelzentren", "num_occupied": "705934", "num_tot": "27539097", "occupied_ratio": "0.02563388334773649259"}
-{"municipal_typologie_id": "6", "municipal_typologie": "Kleinzentren", "num_occupied": "129384", "num_tot": "5638125", "occupied_ratio": "0.02294805453940804789"}
-{"municipal_typologie_id": "4", "municipal_typologie": "Mittelzentren", "num_occupied": "1069207", "num_tot": "22226184", "occupied_ratio": "0.04810573870890297678"}
-{"municipal_typologie_id": "2", "municipal_typologie": "Nebenzentren der Grosszentren", "num_occupied": "604219", "num_tot": "12822121", "occupied_ratio": "0.04712317096368065783"}
-{"municipal_typologie_id": "7", "municipal_typologie": "Periurbane l\u00e4ndliche Gemeinden", "num_occupied": "1113474", "num_tot": "17224029", "occupied_ratio": "0.06464654698386771179"}
-{"municipal_typologie_id": "9", "municipal_typologie": "Touristische Gemeinden", "num_occupied": "418867", "num_tot": "7399555", "occupied_ratio": "0.05660705272141365258"}
+{
+    "0": {
+        "municipal_typologie_id": 1,
+        "municipal_typologie": "Grosszentren",
+        "num_occupied": 1356437,
+        "num_tot": 22090900,
+        "occupied_ratio": 0.0614025232
+    },
+    "1": {
+        "municipal_typologie_id": 2,
+        "municipal_typologie": "Nebenzentren der Grosszentren",
+        "num_occupied": 1257617,
+        "num_tot": 21770406,
+        "occupied_ratio": 0.0577672736
+    },
+    "2": {
+        "municipal_typologie_id": 3,
+        "municipal_typologie": "G\u00fcrtel der Grosszentren",
+        "num_occupied": 1252897,
+        "num_tot": 26366736,
+        "occupied_ratio": 0.0475180925
+    },
+    "3": {
+        "municipal_typologie_id": 4,
+        "municipal_typologie": "Mittelzentren",
+        "num_occupied": 1414068,
+        "num_tot": 30813943,
+        "occupied_ratio": 0.0458905243
+    },
+    "4": {
+        "municipal_typologie_id": 5,
+        "municipal_typologie": "G\u00fcrtel der Mittelzentren",
+        "num_occupied": 1012966,
+        "num_tot": 37488406,
+        "occupied_ratio": 0.0270207808
+    },
+    "5": {
+        "municipal_typologie_id": 6,
+        "municipal_typologie": "Kleinzentren",
+        "num_occupied": 194303,
+        "num_tot": 7575157,
+        "occupied_ratio": 0.0256500294
+    },
+    "6": {
+        "municipal_typologie_id": 7,
+        "municipal_typologie": "Periurbane l\u00e4ndliche Gemeinden",
+        "num_occupied": 1414096,
+        "num_tot": 26378768,
+        "occupied_ratio": 0.0536073557
+    },
+    "7": {
+        "municipal_typologie_id": 8,
+        "municipal_typologie": "Agrargemeinden",
+        "num_occupied": 201111,
+        "num_tot": 9321943,
+        "occupied_ratio": 0.0215739358
+    },
+    "8": {
+        "municipal_typologie_id": 9,
+        "municipal_typologie": "Touristische Gemeinden",
+        "num_occupied": 447232,
+        "num_tot": 8867722,
+        "occupied_ratio": 0.0504336965
+    }
+}
