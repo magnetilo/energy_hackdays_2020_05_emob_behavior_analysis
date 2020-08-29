@@ -15,7 +15,8 @@
 Different charging patterns of private customers:
 - Chargning needs
 - Hours of charging
-- Week days of chargning
+- Week days of charging
+
 This provide good hints for a further automated customer segmentation.
 
 ### comparison of privat & public charging behavior
