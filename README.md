@@ -1,10 +1,12 @@
 # Energy Hackdays 2020 Group 05 e-mobility behavior analysis
 
 ## findings
-- high occupied ratio of public charging stations in big centers and peri-urban rural communes
+- highest occupied ratio of public charging stations in big centers and peri-urban rural communes
+- different charging patterns of private customers 
 
 ## faced challenges
 - parsing and structuring provided raw data --> long running tasks
+- handling data errors
 ...
 
 
@@ -58,4 +60,33 @@ The first query is about getting an overlook over all the EV-Charging points, th
 ## Analyses
 
 ### Charging points utilization
-![Overview(/public_metrics_features_analysis/ExtraTreesRegressor.png)
+
+Features analysis:
+
+![extraTreesRegressor](/public_metrics_features_analysis/ExtraTreesRegressor.png)
+
+
+Legend:
+
+1 | Grosszentren
+
+2 | Nebenzentren der Grosszentren
+
+3 | Gürtel der Grosszentren
+
+4 | Mittelzentren
+
+5 | Gürtel der Mittelzentren
+
+6 | Kleinzentren
+
+7 | Periurbane ländliche Gemeinden
+
+8 | Agrargemeinden
+
+9 | Touristische Gemeinden
+
+
+Occupied ration distribution:
+
+![occupied_ratio_distribution](imgs/occupied_ratio_distribution.png)
